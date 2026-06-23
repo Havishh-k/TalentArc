@@ -13,7 +13,8 @@ export function useImport() {
       const formData = new FormData();
       formData.append('file', file);
 
-      const response = await fetch('/api/import', {
+      const API_BASE = import.meta.env.VITE_API_URL || '';
+      const response = await fetch(`${API_BASE}/api/import`, {
         method: 'POST',
         body: formData,
       });

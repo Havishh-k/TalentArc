@@ -4,7 +4,8 @@ export function Header({ onUploadSuccess }) {
   const [health, setHealth] = useState('offline');
 
   useEffect(() => {
-    fetch('/api/health')
+    const API_BASE = import.meta.env.VITE_API_URL || '';
+    fetch(`${API_BASE}/api/health`)
       .then(res => res.ok ? setHealth('healthy') : setHealth('offline'))
       .catch(() => setHealth('offline'));
   }, []);

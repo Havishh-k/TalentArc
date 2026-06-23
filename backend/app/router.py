@@ -48,7 +48,7 @@ def seed_candidates():
     """Reads mock JSON, embeds project/skill text, and loads into ChromaDB.
     Idempotent — clears and re-seeds the collection on every call.
     """
-    candidates = _load_mock_candidates()
+    candidates = _load_mock_candidates()[:5]
 
     # Build the text to embed for each candidate
     texts = [build_embed_text(c) for c in candidates]

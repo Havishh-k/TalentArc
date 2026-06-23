@@ -1,0 +1,451 @@
+full_name,current_title,current_company,years_experience,skills,project_1_title,project_1_description,avg_tenure_months,num_companies_last_3yr,promotion_speed_months,title_progression_score
+Anamika Behl,ML Engineer,Flipkart,7.0,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",41,4,17,6.9
+Eesha Wagle,Backend Engineer,Infosys,4.1,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,11,3,43,8.8
+Zansi Chatterjee,DevOps Engineer,Wipro,3.8,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,55,1,40,9.1
+Qasim Raju,ML Engineer,Flipkart,12.2,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",36,4,13,7.2
+Adweta Pingle,DevOps Engineer,Zomato,11.0,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,27,3,43,9.2
+Mugdha Nanda,ML Engineer,Cred,10.3,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",20,1,33,8.8
+Quincy Dara,Cloud Architect,Flipkart,10.7,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,28,0,17,3.6
+Faraj Parsa,DevOps Engineer,TCS,12.2,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",40,3,40,6.5
+Chandran Kulkarni,Full Stack Developer,Ola,8.4,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,15,3,10,5.1
+Anya Rattan,Data Scientist,Paytm,11.6,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",51,3,14,3.5
+Pallavi Issac,Cloud Architect,Flipkart,9.0,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,41,4,37,3.8
+Anamika Tank,Frontend Developer,Flipkart,13.0,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,23,2,28,8.2
+Raagini Mittal,Data Scientist,Paytm,13.4,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,17,2,30,3.5
+Ayush Deo,Frontend Developer,TCS,3.2,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,59,4,27,8.6
+Zehaan Edwin,DevOps Engineer,Infosys,5.9,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,38,4,21,3.5
+Tanish Chokshi,Frontend Developer,Razorpay,5.9,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,24,2,48,8.0
+Samesh Luthra,Data Scientist,Wipro,9.3,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,28,0,46,6.4
+Janaki Din,ML Engineer,Swiggy,14.0,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",49,4,46,6.2
+Mahika Nanda,Frontend Developer,Ola,6.7,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",26,1,42,5.1
+Krishna Hayer,Frontend Developer,Ola,13.3,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,32,0,26,3.3
+Chakradev Mohanty,Backend Engineer,Razorpay,13.5,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,50,4,14,8.6
+Riya Gandhi,ML Engineer,TCS,4.1,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,14,1,35,9.7
+Amrita Chacko,DevOps Engineer,Cred,1.6,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,58,0,36,4.0
+Wazir Kashyap,ML Engineer,Wipro,4.0,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,46,3,43,6.4
+Anirudh Barad,Backend Engineer,Swiggy,1.4,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",15,1,11,8.9
+Dhriti Manda,Cloud Architect,Flipkart,11.9,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,34,2,29,3.1
+Gagan Rastogi,DevOps Engineer,Paytm,13.4,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",48,2,35,7.6
+Amrita Sachar,Frontend Developer,Zomato,2.7,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,42,3,12,8.4
+Champak Jaggi,ML Engineer,Cred,12.9,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,50,2,35,8.4
+Wazir Gokhale,Frontend Developer,Swiggy,2.5,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,25,1,13,3.7
+Madhavi Chana,Backend Engineer,Infosys,2.0,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,17,3,16,7.2
+Dayita Sha,Backend Engineer,Razorpay,11.6,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",56,4,45,9.0
+Tripti Madan,Frontend Developer,Infosys,12.8,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,18,2,26,6.8
+Aarna Rama,Backend Engineer,Razorpay,12.5,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,10,3,11,7.9
+Janaki Bora,Full Stack Developer,Cred,11.0,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,17,1,47,8.6
+Qadim Vaidya,Full Stack Developer,Cred,7.8,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,42,3,17,5.0
+Rohan Agate,Frontend Developer,Zomato,7.0,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",56,0,18,4.0
+Ekanta Basak,Full Stack Developer,TCS,13.9,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,34,3,38,9.8
+Yasti Jaggi,Frontend Developer,Razorpay,5.5,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,30,3,12,5.8
+Hemang Keer,Cloud Architect,Infosys,2.8,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,49,1,32,4.3
+Falan Mistry,Full Stack Developer,Swiggy,2.4,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,31,4,41,9.4
+Ayush Konda,Full Stack Developer,Razorpay,3.3,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",48,0,23,3.4
+Lila Kuruvilla,Backend Engineer,Ola,2.6,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,15,3,29,7.4
+Lucky Rai,Data Scientist,Infosys,2.3,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,36,0,35,5.9
+Janani Deshpande,Backend Engineer,Paytm,4.3,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,23,3,17,7.8
+Eshana Shukla,Backend Engineer,Wipro,14.3,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",51,1,21,9.3
+Meera Raja,Frontend Developer,Flipkart,1.7,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,9,1,36,9.8
+Vyanjana Hans,Backend Engineer,Razorpay,13.7,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,12,1,32,4.6
+Rishi Taneja,DevOps Engineer,Razorpay,14.2,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,29,3,26,4.9
+Jeevika Lala,DevOps Engineer,Infosys,2.6,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,35,3,14,3.6
+Vanya Raval,DevOps Engineer,Wipro,6.1,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,17,3,45,10.0
+Kabir Deo,Backend Engineer,Infosys,15.0,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,10,4,19,7.6
+Harrison Golla,Full Stack Developer,Infosys,2.6,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,33,2,36,9.1
+Balveer Trivedi,Full Stack Developer,Flipkart,12.5,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,45,3,18,8.1
+Reva Rajagopal,Cloud Architect,Paytm,12.1,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,57,3,33,7.8
+Xavier Bandi,Frontend Developer,Flipkart,7.7,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,42,0,30,8.0
+Madhavi Gopal,Data Scientist,Ola,9.3,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,20,1,41,7.5
+Vrishti Walla,Cloud Architect,Zomato,13.2,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,28,2,36,3.4
+Aarnav Pathak,DevOps Engineer,Wipro,1.3,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,35,2,21,4.5
+Indira Deep,Frontend Developer,Swiggy,3.9,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",30,3,17,9.2
+Varenya Sem,Full Stack Developer,Paytm,6.6,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,8,1,10,4.6
+Darsh Wason,Frontend Developer,TCS,1.4,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",47,2,40,6.2
+Mugdha Upadhyay,Cloud Architect,TCS,3.9,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,60,3,20,8.7
+Yoshita Nayak,Cloud Architect,Razorpay,1.6,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,14,0,12,5.0
+Omkaar Bhavsar,Data Scientist,Zomato,12.2,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,16,0,24,8.7
+Zashil Mitra,DevOps Engineer,Paytm,2.2,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,47,2,18,4.8
+Fitan Nanda,Frontend Developer,Ola,7.5,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",60,3,23,5.3
+Joshua Baria,Full Stack Developer,TCS,11.2,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,47,0,23,4.0
+Madhav Mani,DevOps Engineer,Paytm,7.3,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",26,0,20,7.7
+Vedhika Bakshi,Frontend Developer,Infosys,9.1,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,13,3,11,3.3
+Agastya Lal,Full Stack Developer,Razorpay,4.0,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,14,4,37,5.3
+Harita Majumdar,ML Engineer,Razorpay,8.5,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,11,1,47,5.8
+Chasmum Parmer,Cloud Architect,Infosys,5.8,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",51,0,11,8.4
+Wishi Ghose,Cloud Architect,Ola,1.1,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",10,2,40,7.5
+Hritik Palla,Full Stack Developer,Cred,14.1,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,16,2,41,3.0
+Mitali Modi,Data Scientist,Wipro,8.0,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,47,0,20,4.2
+Ansh Bhargava,Cloud Architect,Zomato,3.3,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",52,1,11,3.3
+Manthan Chahal,Frontend Developer,Razorpay,5.9,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,23,3,46,8.9
+Banjeet Biswas,Backend Engineer,Zomato,10.1,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",60,4,32,6.2
+Aadhya Rau,Frontend Developer,Razorpay,8.8,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,39,4,37,5.4
+Vansha Singh,Data Scientist,Paytm,8.3,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,16,3,14,3.7
+Ira Sabharwal,Frontend Developer,Cred,13.9,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",29,2,42,6.9
+Wazir Varma,Full Stack Developer,Zomato,11.8,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,52,1,23,8.2
+Anay Vyas,DevOps Engineer,Swiggy,9.4,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,41,0,17,3.4
+Fitan Krishna,Full Stack Developer,Paytm,6.2,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,10,1,21,5.5
+Bhavani Viswanathan,ML Engineer,Flipkart,9.8,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,56,4,24,6.9
+Sachi Krishnan,Full Stack Developer,Zomato,2.4,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,48,4,33,5.2
+Yatan Kunda,ML Engineer,Infosys,13.2,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,43,0,17,9.8
+Azad Sen,ML Engineer,Swiggy,13.2,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,48,4,44,7.3
+Tristan Issac,ML Engineer,Zomato,13.5,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,37,4,38,4.6
+Yashodhara Subramanian,Backend Engineer,Wipro,8.1,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",43,2,18,6.4
+Ganga Nagarajan,Backend Engineer,Cred,14.8,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,11,4,16,6.4
+Brinda Bail,ML Engineer,Ola,5.4,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,32,3,22,5.7
+Charvi Sampath,DevOps Engineer,Wipro,15.0,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,59,0,16,4.4
+Ishani Dar,Frontend Developer,Swiggy,3.2,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,46,2,26,3.5
+Yagnesh Baral,Frontend Developer,Swiggy,9.1,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,34,3,10,6.4
+Vidhi Mutti,Full Stack Developer,Razorpay,10.9,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,8,3,28,5.0
+Ekavir Ahluwalia,ML Engineer,Flipkart,2.8,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,35,0,30,5.2
+Nidhi Kar,Data Scientist,Wipro,1.5,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,21,0,12,6.2
+Yashasvi Sachar,ML Engineer,Ola,3.1,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,27,4,40,6.3
+Oeshi Seth,Full Stack Developer,Wipro,14.3,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,21,2,15,4.3
+Devika Memon,Cloud Architect,Flipkart,10.7,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,60,4,37,5.7
+Hiral Verma,ML Engineer,Infosys,4.2,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,43,1,32,6.9
+Lavanya Mangal,Frontend Developer,Wipro,12.8,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,57,3,11,9.4
+Andrew Dar,Cloud Architect,Ola,13.2,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,28,1,43,4.4
+Anmol Merchant,Backend Engineer,Razorpay,6.4,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",44,0,22,7.5
+Aarnav Brahmbhatt,DevOps Engineer,Razorpay,10.1,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",59,4,45,5.1
+Wyatt Konda,DevOps Engineer,Swiggy,13.1,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,46,3,45,3.1
+Geetika Luthra,Full Stack Developer,Wipro,9.6,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,37,4,27,5.3
+Zehaan Bora,Frontend Developer,Swiggy,5.1,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,35,3,23,4.0
+Shivani Munshi,ML Engineer,Swiggy,5.6,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",26,2,34,5.0
+Advaith Sandhu,Backend Engineer,Infosys,9.7,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,27,2,20,5.6
+Yash Mandal,Cloud Architect,Swiggy,4.8,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",53,2,44,8.4
+Yamini Sethi,Data Scientist,Swiggy,9.9,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,25,4,30,3.6
+Chandran Chaudry,Cloud Architect,Flipkart,9.3,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",30,2,17,8.2
+Warda Thaman,Backend Engineer,Flipkart,6.0,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,10,3,12,6.1
+Eta Venkataraman,Data Scientist,Ola,9.6,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,15,0,48,8.7
+Avi Kala,ML Engineer,Razorpay,3.0,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",26,0,23,3.4
+Vanya Kuruvilla,ML Engineer,Wipro,3.5,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,19,1,33,5.8
+Chavvi Dhawan,Backend Engineer,Infosys,7.8,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,29,3,38,3.0
+Isha Nazareth,Full Stack Developer,Swiggy,3.9,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,20,3,43,7.1
+Nimrat Sachar,Data Scientist,Razorpay,9.5,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,17,1,10,6.3
+Tanmayi Sama,Data Scientist,Flipkart,1.9,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,59,4,39,8.4
+Advaith Hayre,ML Engineer,TCS,9.4,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",36,4,44,4.3
+Meera Verma,Full Stack Developer,Flipkart,6.7,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,48,2,38,9.1
+Panini Chaudhuri,ML Engineer,Ola,5.5,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,30,0,10,4.3
+Qarin Behl,Data Scientist,Zomato,6.5,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,26,2,30,4.0
+Janaki Kant,Frontend Developer,Paytm,14.1,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,37,1,11,7.9
+Nisha Bawa,Backend Engineer,Flipkart,8.3,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,39,1,26,3.1
+Agastya Choudhary,DevOps Engineer,Swiggy,13.3,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",13,4,20,8.7
+Zansi Warrior,DevOps Engineer,Swiggy,14.0,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",17,4,11,6.0
+Jeet Joshi,Frontend Developer,Swiggy,7.2,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,18,3,10,3.8
+Ikbal Baria,DevOps Engineer,Ola,12.7,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,49,1,29,7.9
+Henry Sood,ML Engineer,TCS,6.3,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,47,0,31,9.8
+Edhitha Mistry,Cloud Architect,Razorpay,11.9,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,22,0,27,7.6
+Ekavir Nagarajan,Frontend Developer,Infosys,8.0,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,15,0,39,4.6
+Anya Joshi,Backend Engineer,Swiggy,4.2,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,10,4,11,6.6
+Waida Basak,ML Engineer,Razorpay,8.8,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,50,1,14,5.8
+Krishna Kaur,Frontend Developer,Paytm,4.3,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",37,4,37,6.8
+Manan Chandra,DevOps Engineer,TCS,3.6,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,42,0,31,9.3
+Ranveer Kalita,Data Scientist,Paytm,4.7,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",48,2,39,4.0
+Sathvik Sura,Full Stack Developer,Paytm,14.0,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,60,4,44,5.8
+Brinda Rajagopalan,Cloud Architect,Cred,12.3,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,27,0,35,9.9
+Zayan Dube,Cloud Architect,Swiggy,1.4,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,50,2,42,4.4
+Oeshi Naidu,Frontend Developer,Razorpay,7.7,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,53,1,45,4.9
+Indira Kala,Backend Engineer,Infosys,10.3,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,36,2,17,4.5
+Amruta Balay,ML Engineer,Razorpay,3.2,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,53,1,32,8.9
+Sathvik Choudhry,Cloud Architect,Cred,9.2,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,15,1,12,9.4
+Oni More,Backend Engineer,Cred,12.6,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",48,0,27,4.4
+Qabil Rattan,Cloud Architect,Infosys,12.6,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,36,1,10,6.4
+Elijah Gola,Full Stack Developer,Swiggy,3.4,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,34,4,19,8.6
+Neha Iyer,Frontend Developer,Ola,15.0,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,29,3,25,4.9
+Ria Korpal,Backend Engineer,Cred,9.5,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,46,4,48,6.0
+Daniel Manda,DevOps Engineer,Flipkart,5.5,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,19,4,11,9.7
+Anjali Shroff,Full Stack Developer,Cred,12.8,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,60,3,20,7.6
+Upasna Bobal,DevOps Engineer,Ola,2.1,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,13,1,39,8.0
+Ria Chatterjee,DevOps Engineer,Ola,5.9,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,20,0,38,5.2
+Garima Zachariah,Frontend Developer,Flipkart,6.2,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,9,0,25,7.7
+Vinaya Bandi,Full Stack Developer,Cred,11.0,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,59,4,13,4.5
+Zaitra Sampath,ML Engineer,Wipro,6.3,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",29,0,31,4.4
+Bhavya Deshpande,DevOps Engineer,Infosys,3.8,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,22,2,32,7.4
+Timothy Pradhan,Full Stack Developer,TCS,8.6,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,45,4,15,8.2
+Falan Bains,Frontend Developer,Swiggy,2.8,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",54,2,39,6.6
+Upadhriti Sani,Cloud Architect,Razorpay,14.9,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",27,3,28,6.6
+Fariq Doctor,Frontend Developer,Cred,2.3,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,46,3,42,6.9
+Rehaan Narayan,Full Stack Developer,Wipro,2.5,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,52,3,39,5.0
+Ekavir Iyer,ML Engineer,TCS,9.9,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,15,3,27,5.2
+Kritika Bir,Full Stack Developer,Wipro,7.0,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,32,2,33,5.9
+Ekiya Sampath,DevOps Engineer,Paytm,3.5,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,34,0,20,9.1
+Lekha Mallick,Full Stack Developer,Wipro,9.7,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,55,2,28,4.8
+Naveen Mutti,Full Stack Developer,Ola,3.4,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,40,3,15,9.7
+Nisha Char,ML Engineer,Infosys,12.7,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",48,2,45,6.9
+Hemang Borah,Data Scientist,Infosys,6.0,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,53,4,25,7.6
+Chaitaly Saran,Data Scientist,Zomato,14.4,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,29,2,34,6.1
+Nicholas Mannan,Full Stack Developer,TCS,9.7,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,34,3,24,8.0
+Ria Mallick,Backend Engineer,Infosys,14.2,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,52,1,36,8.3
+Niharika Vaidya,Backend Engineer,Swiggy,13.2,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,11,2,27,4.9
+Thomas Thaman,Full Stack Developer,Paytm,1.6,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,27,4,38,3.0
+Irya Pandit,Cloud Architect,TCS,1.6,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,30,3,19,3.8
+Zashil Mahajan,Cloud Architect,Razorpay,11.7,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",31,2,38,6.5
+Yashawini Wable,ML Engineer,Razorpay,8.4,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,21,4,37,6.9
+Chaitaly Maharaj,Frontend Developer,TCS,12.8,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,19,2,26,4.7
+Siddharth Dixit,Full Stack Developer,Zomato,7.6,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,41,0,40,4.7
+Eshana Sengupta,ML Engineer,Infosys,8.7,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,9,1,17,9.3
+Gavin Nagar,Frontend Developer,Swiggy,3.4,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",36,4,40,7.0
+Geetika Rajagopalan,Backend Engineer,Zomato,7.2,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,47,3,23,8.4
+Sneha Golla,Frontend Developer,Cred,5.1,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,16,2,10,7.3
+Avi Nagar,Cloud Architect,Flipkart,11.5,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,10,3,40,6.3
+Hemangini Sachdeva,DevOps Engineer,Paytm,7.1,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,18,3,28,5.3
+Wazir Chanda,Cloud Architect,TCS,5.2,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,19,2,38,6.1
+Rishi Kala,Cloud Architect,Razorpay,11.0,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,54,1,12,5.1
+Reyansh Panchal,DevOps Engineer,TCS,5.3,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",36,4,43,8.8
+Xalak Sahni,DevOps Engineer,Wipro,4.5,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",37,3,42,5.4
+Januja Oza,Backend Engineer,Infosys,10.0,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,10,4,23,4.9
+David Lad,DevOps Engineer,Flipkart,11.3,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",51,4,22,5.8
+Anya Hari,Cloud Architect,Flipkart,7.8,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,19,3,41,6.6
+Sanya Pathak,Data Scientist,Infosys,10.8,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,48,2,22,7.8
+Qarin Saha,Backend Engineer,Paytm,9.7,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,48,3,26,5.7
+Charan Varty,Backend Engineer,Infosys,4.9,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,41,3,20,4.7
+Bhavna Pingle,Backend Engineer,Flipkart,6.2,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",10,4,31,9.8
+Jagvi Gill,Backend Engineer,Wipro,9.8,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,50,2,15,6.5
+Dayita Pau,ML Engineer,Cred,14.1,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,58,2,37,3.0
+Urishilla Dash,ML Engineer,Razorpay,5.8,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,31,3,13,6.3
+Aishani Parsa,Data Scientist,Swiggy,13.0,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,52,0,23,5.3
+Patrick Bala,Cloud Architect,Ola,5.1,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,31,0,12,8.9
+Wakeeta Shetty,Data Scientist,Zomato,8.9,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",52,2,37,3.7
+Amaira Singh,ML Engineer,Zomato,8.6,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,36,2,28,9.5
+Ekani Iyengar,DevOps Engineer,Wipro,2.1,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,53,4,12,9.6
+Ishita Dhillon,DevOps Engineer,Cred,13.7,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,18,3,13,5.7
+Harrison Konda,Backend Engineer,Flipkart,14.0,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,55,1,31,6.4
+Laban Mitter,Full Stack Developer,Swiggy,9.2,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,19,2,28,5.0
+Veer Kurian,Full Stack Developer,TCS,12.3,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,18,1,42,3.4
+Balvan Mangal,ML Engineer,Flipkart,12.2,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,32,1,23,8.4
+Pranit Loyal,Data Scientist,TCS,4.2,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,51,2,37,4.4
+Lucky Nanda,DevOps Engineer,TCS,1.1,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,28,2,10,6.7
+Jairaj Contractor,Full Stack Developer,Razorpay,5.7,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,12,2,36,7.7
+Adya Bhavsar,Cloud Architect,TCS,5.0,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,36,4,42,9.9
+Utkarsh Mallick,Full Stack Developer,Wipro,8.2,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,54,2,24,9.5
+Hemani Rajagopal,Full Stack Developer,Ola,8.9,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",17,1,46,9.3
+Veer Din,DevOps Engineer,Cred,5.5,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",29,2,27,5.6
+Darsh Jha,Frontend Developer,Cred,9.8,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,34,2,37,9.4
+Bishakha Brar,Data Scientist,Razorpay,10.2,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,55,0,12,8.3
+Chakradev Walla,Frontend Developer,Razorpay,3.9,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,58,0,16,7.9
+Mason Sem,Backend Engineer,Ola,9.4,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,37,3,26,5.8
+Warjas Hayer,DevOps Engineer,TCS,12.2,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,14,4,23,4.4
+Anusha Karnik,DevOps Engineer,TCS,12.4,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,51,0,44,8.3
+Nakul Sodhi,Backend Engineer,Zomato,11.7,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,27,2,31,4.4
+Yashasvi Balasubramanian,Full Stack Developer,Cred,12.3,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",53,0,33,5.6
+Guneet Bala,DevOps Engineer,Zomato,7.0,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,47,0,24,8.7
+Aashi Chauhan,Frontend Developer,Infosys,12.2,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,19,3,34,4.3
+Wazir Bumb,DevOps Engineer,Razorpay,14.2,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,60,0,19,9.8
+Nimrat Sule,ML Engineer,Zomato,11.9,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,13,0,16,7.8
+Yahvi Roy,Cloud Architect,Razorpay,14.6,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,50,1,31,4.3
+Aarna Issac,Backend Engineer,Ola,9.5,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,10,0,32,4.0
+Bakhshi Soman,Full Stack Developer,Cred,13.0,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,37,0,27,8.5
+Forum Pillai,DevOps Engineer,Swiggy,12.7,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",25,2,19,9.2
+Urvashi Pathak,Cloud Architect,Ola,14.1,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,11,0,19,9.0
+Nakul Sanghvi,DevOps Engineer,Paytm,7.0,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,31,4,21,9.2
+Omkaar Acharya,ML Engineer,Paytm,7.3,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,44,4,48,4.3
+Simon Sani,Data Scientist,TCS,11.9,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,23,4,16,7.4
+Girik Kumer,Frontend Developer,Cred,6.1,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,16,2,27,5.9
+Amrita Kalita,ML Engineer,Swiggy,11.0,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,32,2,21,4.6
+Zilmil Rana,Cloud Architect,Razorpay,11.1,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",52,4,18,4.8
+Forum Verma,Full Stack Developer,Ola,8.8,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,19,0,43,4.7
+Yash Balay,Frontend Developer,Razorpay,11.2,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,59,0,16,7.7
+Wyatt Murthy,DevOps Engineer,Swiggy,4.8,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",46,3,41,3.4
+Kavya Saran,Data Scientist,Swiggy,7.8,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,48,2,16,4.1
+Samaksh Dani,ML Engineer,Wipro,7.4,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,25,2,23,9.1
+Damyanti Dhar,Frontend Developer,Infosys,3.9,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,23,1,14,6.0
+Nimrat Ravi,Full Stack Developer,Flipkart,13.7,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,60,4,21,9.7
+Indali Hayre,Frontend Developer,Razorpay,5.8,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,11,0,14,7.2
+Chavvi Tella,ML Engineer,Cred,14.6,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,38,0,11,8.7
+Mitali D’Alia,Data Scientist,Zomato,2.5,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,46,4,48,9.5
+Nisha Rai,Backend Engineer,Zomato,7.8,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,57,2,32,4.7
+Sara Badal,Cloud Architect,Wipro,6.6,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,28,4,34,7.3
+Bhavya Shetty,ML Engineer,Razorpay,7.6,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,12,1,46,9.5
+Saumya Sarma,Data Scientist,Wipro,10.5,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",8,0,34,7.7
+Ekbal Arora,Frontend Developer,Razorpay,14.5,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,49,1,46,6.9
+Amruta Bajwa,Backend Engineer,Wipro,14.5,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,26,4,34,5.6
+Zayan Minhas,Cloud Architect,Wipro,1.6,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,20,2,45,3.7
+Aarnav Dutta,Full Stack Developer,Infosys,3.9,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,58,4,33,8.4
+Nathan Zacharia,Backend Engineer,TCS,1.1,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,16,3,30,6.6
+Sudiksha Chana,Frontend Developer,Paytm,4.9,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,35,0,41,8.7
+Nikita Borde,Cloud Architect,Flipkart,11.2,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,29,0,29,4.1
+Ira Keer,Frontend Developer,Zomato,11.1,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,29,3,17,7.9
+Madhav Kashyap,Frontend Developer,Zomato,10.2,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,42,4,13,7.2
+Tamanna Batra,Cloud Architect,TCS,6.9,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,37,4,23,9.9
+Omkaar Misra,Data Scientist,Paytm,2.7,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,18,4,46,3.4
+Bishakha Krish,DevOps Engineer,Swiggy,7.2,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,48,1,24,8.9
+Samarth Tata,Backend Engineer,Paytm,2.6,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",16,1,33,8.7
+Barkha Sibal,DevOps Engineer,Flipkart,4.6,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",41,2,30,3.3
+Inaya Subramanian,Full Stack Developer,Swiggy,4.7,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,9,2,38,5.1
+Pallavi Divan,Frontend Developer,Infosys,11.5,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",56,4,13,4.4
+Pallavi Morar,Full Stack Developer,Ola,11.7,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,48,2,37,8.4
+Bina Dass,Full Stack Developer,Swiggy,5.6,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,56,1,34,4.8
+Yasti Boase,Data Scientist,TCS,6.9,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,11,2,31,7.9
+Praneel Dugar,ML Engineer,Zomato,11.2,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,50,1,48,10.0
+Urvashi Date,Data Scientist,Wipro,4.6,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,42,1,27,6.8
+Oviya Varkey,Frontend Developer,Cred,3.7,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,48,2,37,9.9
+Bishakha Bail,Full Stack Developer,TCS,4.1,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,11,0,20,9.2
+Geetika Aurora,Full Stack Developer,Paytm,10.5,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,44,0,44,6.0
+Jyoti Rau,DevOps Engineer,Ola,14.9,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,37,3,43,7.1
+Neha Ghose,ML Engineer,Infosys,7.4,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,20,2,20,8.7
+Nathan Nanda,DevOps Engineer,Cred,3.6,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,14,0,24,6.1
+Rishi Narasimhan,Cloud Architect,Wipro,1.2,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,50,1,30,4.4
+Jason Parsa,Frontend Developer,Zomato,6.3,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,21,2,41,6.2
+Indali Sandal,Full Stack Developer,Paytm,7.1,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,32,2,12,8.8
+Isaac Chad,Backend Engineer,Paytm,9.9,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,39,2,21,9.4
+Shivani Rege,Cloud Architect,Wipro,7.5,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",21,0,44,3.8
+Yashoda Lala,ML Engineer,Razorpay,1.1,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",44,3,17,5.4
+Bina Nori,DevOps Engineer,Ola,6.9,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,21,4,33,6.0
+Orinder Verma,ML Engineer,Ola,10.9,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",30,2,18,7.6
+Rachita Swaminathan,Data Scientist,Ola,9.3,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,56,2,17,4.0
+Nathaniel Chad,Frontend Developer,Cred,3.6,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",29,0,27,8.0
+Unni Palan,ML Engineer,Cred,11.0,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,43,2,47,4.2
+Udyati Vig,Full Stack Developer,Swiggy,4.3,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",59,1,28,7.6
+Rajeshri Kadakia,Frontend Developer,Flipkart,5.8,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,41,3,16,8.2
+Oni Jhaveri,ML Engineer,TCS,5.1,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",12,4,10,4.9
+Ijaya Mannan,ML Engineer,Cred,5.8,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,26,2,39,9.6
+Varenya Nagi,DevOps Engineer,Infosys,12.5,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,60,3,44,7.7
+Hemal Koshy,Full Stack Developer,Infosys,10.9,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,40,0,29,6.1
+Garima Brar,Backend Engineer,Infosys,4.5,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,14,1,48,7.4
+Ekalinga Vasa,Backend Engineer,Infosys,3.9,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,14,2,43,6.5
+Hemang Morar,Cloud Architect,Wipro,1.3,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",8,3,23,9.5
+Dipta Sinha,Cloud Architect,Zomato,14.1,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,45,4,20,9.1
+Saanvi Dubey,Full Stack Developer,Wipro,9.1,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",14,3,13,3.5
+Nidra Rao,Full Stack Developer,TCS,9.4,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,13,3,34,4.2
+Dominic Shanker,ML Engineer,Razorpay,9.8,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",15,2,41,8.4
+Krisha Madan,Backend Engineer,Infosys,2.6,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,27,4,22,8.5
+Advaith Sridhar,ML Engineer,TCS,9.2,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",51,0,26,7.2
+Advik Andra,Backend Engineer,TCS,10.2,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,12,4,16,3.8
+Simon Malhotra,Data Scientist,Zomato,7.2,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,11,4,16,5.4
+Indira Puri,Cloud Architect,Zomato,2.3,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,35,3,42,8.8
+Teerth Bhatnagar,Full Stack Developer,Swiggy,7.1,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,15,1,20,4.3
+Zashil Chander,Backend Engineer,Infosys,13.5,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,55,4,26,4.8
+Anamika Karan,Cloud Architect,Ola,4.5,"Terraform, Kubernetes, Docker",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,42,4,36,9.6
+Alexander Kalita,Backend Engineer,Infosys,8.2,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,26,3,32,3.8
+Pahal Pant,DevOps Engineer,Cred,13.7,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,16,3,41,5.4
+Manthan Iyengar,Frontend Developer,Flipkart,4.7,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,53,0,16,5.4
+George Sekhon,DevOps Engineer,Cred,1.7,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,42,2,28,4.7
+Kamala Pall,Full Stack Developer,Wipro,13.4,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,52,2,44,4.0
+Rohan Vasa,Backend Engineer,Ola,1.3,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,37,1,47,6.3
+Balendra Nadig,Full Stack Developer,Wipro,14.2,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,58,1,29,3.5
+Niharika Kota,Frontend Developer,Cred,2.3,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",20,1,24,3.2
+Rushil Kale,Data Scientist,Infosys,6.2,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",31,1,29,4.7
+Xavier Modi,DevOps Engineer,Paytm,7.6,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,51,0,40,8.8
+Warhi Ben,Frontend Developer,Flipkart,14.4,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",22,2,30,8.9
+Ayush Taneja,Cloud Architect,Cred,3.3,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,52,0,14,8.4
+Rachit Morar,Backend Engineer,Ola,4.3,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,49,3,45,5.4
+Oeshi Chander,Backend Engineer,Ola,9.2,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,34,2,21,5.9
+Zayan Shetty,DevOps Engineer,Cred,7.7,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",57,2,26,6.7
+Nicholas Chandra,Backend Engineer,Zomato,6.9,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",22,2,32,3.0
+Libni Yogi,Backend Engineer,Ola,14.5,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",12,4,37,4.8
+Max Nadkarni,Data Scientist,TCS,2.4,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,11,0,44,7.0
+Ladli Keer,DevOps Engineer,TCS,6.0,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",36,4,13,6.6
+Farhan Bakshi,Full Stack Developer,Swiggy,6.2,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,18,1,11,9.8
+Vincent Nadkarni,Cloud Architect,Swiggy,4.0,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,55,1,29,3.3
+Amara Contractor,Full Stack Developer,Ola,1.0,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,22,0,44,7.5
+Ishanvi Prasad,ML Engineer,Zomato,14.4,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",48,1,41,6.9
+Akshay Chokshi,DevOps Engineer,Razorpay,2.5,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",33,2,26,7.6
+Azaan Dewan,Cloud Architect,Infosys,12.0,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,51,3,26,7.9
+Pooja Varughese,Cloud Architect,Paytm,4.8,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,44,4,42,9.2
+Manbir Palla,DevOps Engineer,Paytm,6.3,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,51,2,18,8.9
+Manya Kumer,ML Engineer,Razorpay,10.9,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,60,0,30,5.2
+Fitan Gola,Cloud Architect,Paytm,1.1,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,49,2,27,5.5
+Balveer Tailor,Full Stack Developer,Ola,14.7,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,43,2,17,4.2
+Timothy Vohra,DevOps Engineer,Flipkart,6.6,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,60,2,20,5.4
+Qabil Pathak,DevOps Engineer,Cred,5.8,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,19,0,34,6.6
+Ishita Sani,ML Engineer,TCS,8.9,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",36,3,33,6.1
+Yatan Chakrabarti,Data Scientist,Paytm,2.8,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,10,4,46,6.0
+Sachi Sathe,Data Scientist,Ola,11.6,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",45,1,43,7.9
+Yatan Maharaj,ML Engineer,Paytm,4.1,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,12,1,11,5.1
+Hema Cherian,ML Engineer,Paytm,8.7,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,19,3,36,6.9
+Ikshita Doctor,Frontend Developer,Zomato,8.0,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,8,1,43,5.1
+Chanakya Dora,DevOps Engineer,Swiggy,6.2,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,29,1,35,4.7
+Vrinda Thaman,Frontend Developer,Infosys,10.7,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,48,1,11,7.6
+Vansha Dayal,Backend Engineer,TCS,2.3,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,56,0,13,3.1
+Deepa Dara,ML Engineer,TCS,6.9,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,27,4,12,6.7
+Vritti Wali,Data Scientist,Wipro,7.1,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,22,4,11,6.9
+Fiyaz Yogi,Full Stack Developer,Flipkart,13.3,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,38,4,21,6.0
+Mekhala Nayar,Cloud Architect,Wipro,4.9,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,22,4,22,5.3
+Eiravati Mammen,Frontend Developer,Wipro,11.5,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,56,0,25,6.5
+Brinda Wable,Backend Engineer,Flipkart,8.7,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,15,2,22,8.8
+Nirja Suresh,Full Stack Developer,Flipkart,13.7,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,17,4,20,3.9
+Anmol Ghose,Data Scientist,Infosys,9.6,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,24,1,20,6.9
+Ansh Bedi,Full Stack Developer,Wipro,8.4,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",32,1,36,5.1
+Yachana Oak,ML Engineer,Paytm,10.4,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,60,1,22,9.9
+Christopher Bumb,Backend Engineer,Paytm,14.7,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,34,3,23,9.3
+Qasim Dara,DevOps Engineer,Razorpay,11.2,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,11,1,10,4.1
+Forum Radhakrishnan,ML Engineer,Zomato,1.6,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,45,3,26,7.6
+Guneet Sem,Data Scientist,Ola,4.6,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,48,1,31,4.8
+Darika Ahluwalia,Cloud Architect,Razorpay,5.4,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,55,0,40,8.9
+Sai Sodhi,Cloud Architect,TCS,11.8,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,24,0,46,8.7
+Darpan Kara,ML Engineer,Zomato,10.1,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,34,0,44,5.1
+Vasana Bhakta,Cloud Architect,Flipkart,6.5,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,52,4,33,3.5
+Gauri Banerjee,DevOps Engineer,Zomato,2.7,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,54,4,27,3.2
+Upma Bahl,DevOps Engineer,Paytm,5.1,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,22,3,35,8.0
+Triveni Bir,ML Engineer,Ola,10.4,"Java, Spring Boot, Kafka",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,24,3,39,5.4
+Arunima Sur,Cloud Architect,Ola,8.7,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,40,0,47,9.6
+Gautam Hari,Full Stack Developer,Ola,3.7,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,44,2,15,7.6
+Eiravati Loyal,DevOps Engineer,Swiggy,12.1,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,40,4,14,5.6
+Omya Pandit,Backend Engineer,Infosys,5.4,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,53,4,42,7.4
+Rohan Oza,Cloud Architect,Flipkart,9.6,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,38,3,47,6.3
+Yochana Mishra,Data Scientist,TCS,5.7,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,50,4,37,3.5
+Hamsini Apte,Full Stack Developer,Infosys,6.6,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",10,1,24,9.4
+Ekavir Ramaswamy,ML Engineer,Cred,7.4,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,53,3,12,7.2
+Tristan Gill,DevOps Engineer,Zomato,10.2,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,58,2,37,9.9
+Reyansh Bath,Cloud Architect,Razorpay,4.1,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,34,1,34,5.5
+Bimala Cherian,DevOps Engineer,Swiggy,9.2,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,29,2,22,4.7
+Rishi Buch,Frontend Developer,Razorpay,8.3,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,43,0,14,3.4
+Yoshita Morar,Cloud Architect,Flipkart,6.6,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",20,0,14,9.7
+Ekavir Shroff,Full Stack Developer,Infosys,5.1,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",59,2,22,8.5
+Andrew Nagarajan,Frontend Developer,Cred,13.9,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,50,1,25,9.3
+Jagvi Nadig,DevOps Engineer,Cred,9.9,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,31,1,22,8.0
+Praneel Sura,Cloud Architect,Infosys,1.3,"Terraform, Kubernetes, Docker",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,25,3,46,9.5
+Jagdish Baral,Data Scientist,Swiggy,10.4,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",42,3,18,7.4
+Sudiksha Natarajan,DevOps Engineer,Flipkart,2.7,"PyTorch, TensorFlow, Pandas",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",48,4,13,8.5
+Benjamin Agate,Full Stack Developer,Razorpay,9.4,"Java, Spring Boot, Kafka",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,20,4,16,8.9
+Viraj Keer,Frontend Developer,Flipkart,14.5,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,36,2,21,4.3
+Ekaraj Mand,Backend Engineer,Razorpay,3.2,"PyTorch, TensorFlow, Pandas",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,60,1,45,9.2
+Chatura Ganesh,Data Scientist,Ola,11.3,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,51,0,34,9.9
+Xalak Nagar,Data Scientist,Wipro,10.2,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,8,4,23,6.4
+Kabir Walia,Frontend Developer,Razorpay,9.8,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",58,0,30,3.2
+Diya Zacharia,ML Engineer,Swiggy,9.5,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,33,1,17,3.1
+Warda Ramanathan,Full Stack Developer,Zomato,5.8,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,35,4,43,6.7
+Maanas Kakar,Data Scientist,TCS,2.5,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",47,2,23,4.2
+Zarna Doctor,Backend Engineer,TCS,14.9,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",57,3,48,8.9
+Rayaan Guha,Backend Engineer,Zomato,9.0,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,20,1,37,3.3
+Madhav Yohannan,DevOps Engineer,Ola,9.4,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,37,4,44,7.4
+Onkar Choudhury,Full Stack Developer,Flipkart,4.7,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",57,3,18,9.5
+Nitara Nadig,Cloud Architect,Zomato,14.0,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,39,0,46,5.1
+Dayamai Balay,Frontend Developer,Flipkart,8.8,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,26,1,26,9.9
+Jackson Varkey,DevOps Engineer,Wipro,14.2,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,43,0,35,5.2
+Jagat Sahota,Cloud Architect,Cred,1.0,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",53,2,47,8.8
+Varsha Pal,DevOps Engineer,TCS,7.4,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,13,1,43,9.2
+Jonathan Bora,Cloud Architect,Wipro,13.2,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,17,0,27,7.9
+Faqid Bal,Backend Engineer,Swiggy,1.9,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,21,4,17,6.0
+Ekapad Kapadia,Cloud Architect,Swiggy,12.3,"Java, Spring Boot, Kafka",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,60,3,27,6.7
+Brijesh Sharaf,Full Stack Developer,Wipro,1.3,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,18,2,19,7.8
+Rudra Nagarajan,DevOps Engineer,Razorpay,1.3,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,33,4,21,4.8
+Gauri Sule,Backend Engineer,Zomato,7.2,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,56,2,24,3.8
+Chanakya Atwal,DevOps Engineer,Swiggy,2.0,"React, Node.js, MongoDB",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",23,4,19,5.4
+Veda Sharaf,ML Engineer,Infosys,3.6,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,50,1,38,7.1
+Ekaraj Ravi,Backend Engineer,TCS,7.3,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,14,0,39,4.0
+Krish Raja,ML Engineer,Razorpay,4.0,"Terraform, Kubernetes, Docker",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",39,1,48,6.1
+Vasana Anne,Cloud Architect,Zomato,4.0,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,40,0,46,7.4
+Fariq Patel,ML Engineer,Flipkart,4.0,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,38,4,34,5.9
+Ekani Mitra,ML Engineer,Paytm,7.8,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,48,0,35,4.9
+Darika Ramaswamy,DevOps Engineer,Ola,12.0,"React, Node.js, MongoDB",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,37,3,17,7.2
+Chameli Choudhury,Data Scientist,Ola,7.9,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,22,0,21,8.1
+Jackson Sama,Cloud Architect,Flipkart,13.0,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,18,0,10,6.2
+Abhiram Kannan,Backend Engineer,Infosys,7.8,"React, Node.js, MongoDB",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,53,1,46,9.0
+Wriddhish Sama,DevOps Engineer,Swiggy,1.6,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,23,2,19,6.1
+Pranav Nadig,Backend Engineer,Wipro,3.7,"Python, SQL, AWS",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,52,4,10,9.3
+Falan Kakar,Backend Engineer,Ola,1.4,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,46,1,19,4.0
+Fiyaz Luthra,DevOps Engineer,Infosys,8.3,"PyTorch, TensorFlow, Pandas",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,28,3,44,8.5
+Advik Kadakia,Backend Engineer,TCS,14.9,"React, Node.js, MongoDB",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,44,2,24,8.6
+Ekavir Behl,ML Engineer,TCS,5.2,"Python, SQL, AWS",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,45,1,48,7.2
+Daksh Swaminathan,Full Stack Developer,Cred,8.2,"Terraform, Kubernetes, Docker",Recommendation Engine,Built a collaborative filtering model that increased user engagement by 15%.,39,0,19,3.4
+Leela Sarin,ML Engineer,Razorpay,4.2,"Java, Spring Boot, Kafka",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,27,3,24,4.2
+Yashica Gour,Data Scientist,Zomato,10.1,"Python, SQL, AWS",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,20,4,25,6.4
+Bimala Ramesh,Frontend Developer,Flipkart,11.3,"Java, Spring Boot, Kafka",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",21,3,46,7.6
+Liam Dubey,DevOps Engineer,Paytm,2.9,"PyTorch, TensorFlow, Pandas",Real-time Analytics Dashboard,Created a React-based dashboard visualizing streaming data via WebSockets.,18,1,34,9.2
+Nihal Samra,ML Engineer,Flipkart,7.6,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,38,2,36,4.7
+Waida Kurian,Data Scientist,Cred,10.7,"Python, SQL, AWS",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,8,3,29,4.8
+Geetika Lal,ML Engineer,Wipro,5.8,"PyTorch, TensorFlow, Pandas",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,10,0,42,9.2
+Warinder Sandhu,Cloud Architect,Paytm,11.0,"Terraform, Kubernetes, Docker",Database Migration,Migrated 10TB of relational data to NoSQL with zero data loss.,30,3,14,9.1
+Gaurika Bawa,Cloud Architect,Swiggy,10.1,"React, Node.js, MongoDB",CI/CD Automation,Automated deployment pipelines reducing release times from days to hours.,24,0,16,8.5
+Vincent Barad,ML Engineer,Infosys,1.4,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",11,3,47,7.7
+Bhavini Kannan,ML Engineer,Swiggy,14.1,"Python, SQL, AWS",Payment Gateway Refactor,"Rewrote legacy monolith into microservices, improving throughput by 40%.",41,0,37,8.2

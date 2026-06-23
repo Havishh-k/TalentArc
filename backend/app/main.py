@@ -13,7 +13,10 @@ async def lifespan(app: FastAPI):
     try:
         collection = get_collection()
         if collection.count() == 0:
-            print("[startup] ChromaDB collection empty — run POST /api/seed to populate.")
+            print("[startup] ChromaDB collection empty — auto-seeding...")
+            from app.router import seed_candidates
+            seed_candidates()
+            print("[startup] Auto-seeded mock candidates.")
         else:
             print(f"[startup] ChromaDB ready — {collection.count()} candidates indexed.")
     except Exception as e:
@@ -31,7 +34,7 @@ app = FastAPI(
 # CORS — allow frontend dev server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

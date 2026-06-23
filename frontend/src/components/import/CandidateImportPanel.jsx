@@ -21,7 +21,8 @@ export function CandidateImportPanel() {
           </p>
         </div>
         <a 
-          href="/api/health" 
+          href="#"
+          onClick={(e) => { e.preventDefault(); window.open((import.meta.env.VITE_API_URL || '') + '/api/health', '_blank'); }} 
           target="_blank"
           className="text-brand-glow hover:text-white text-sm font-medium transition-colors"
         >
