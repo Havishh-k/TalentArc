@@ -12,7 +12,7 @@ function BlindAvatar({ rank }) {
 
 
 
-export function CandidateCard({ candidate, weights, blindMode, style, className = '' }) {
+export function CandidateCard({ candidate, weights, blindMode, style, onSelect, className = '' }) {
   const [expanded, setExpanded] = useState(false);
 
   const displayName = blindMode ? `Candidate #${candidate.rank}` : candidate.display_name;
@@ -70,6 +70,14 @@ export function CandidateCard({ candidate, weights, blindMode, style, className 
           <p className="font-normal text-sm leading-relaxed text-text-secondary">
             {candidate.justification}
           </p>
+          <div className="mt-4 text-right">
+            <button 
+              onClick={(e) => { e.stopPropagation(); if (onSelect) onSelect(candidate); }}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-brand-primary bg-brand-primary/10 hover:bg-brand-primary/20 rounded transition-colors"
+            >
+              View Full Profile &rarr;
+            </button>
+          </div>
         </div>
       )}
       

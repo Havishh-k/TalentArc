@@ -149,7 +149,7 @@ async def orchestrate_search(
             "retention_risk": retention,
             "radar_data": radar,
             "blind_mode_applied": blind_mode,
-            "_raw_candidate": candidate, # Temporary reference for justification
+            "raw_data": candidate, # Added for drawer
             "_scores_dict": scores_dict  # Temporary reference for justification
         }
         results_pre_justification.append(result)
@@ -162,7 +162,7 @@ async def orchestrate_search(
     # [3d] Parallel LLM justification generation
     for r in results_pre_justification:
         task = generate_justification(
-            candidate=r["_raw_candidate"],
+            candidate=r["raw_data"],
             jd_summary=job_description[:300],
             scores=r["_scores_dict"],
             rank=r["rank"],
@@ -174,7 +174,6 @@ async def orchestrate_search(
     
     for idx, r in enumerate(results_pre_justification):
         r["justification"] = justifications[idx]
-        del r["_raw_candidate"]
         del r["_scores_dict"]
 
     results = results_pre_justification
@@ -302,7 +301,7 @@ async def clone_candidate(
             "retention_risk": retention,
             "radar_data": radar,
             "blind_mode_applied": blind_mode,
-            "_raw_candidate": candidate, 
+            "raw_data": candidate, 
             "_scores_dict": scores_dict  
         }
         results_pre_justification.append(result)
@@ -315,7 +314,7 @@ async def clone_candidate(
 
     for r in results_pre_justification:
         task = generate_justification(
-            candidate=r["_raw_candidate"],
+            candidate=r["raw_data"],
             jd_summary=f"Clone of candidate {target_candidate_id}",
             scores=r["_scores_dict"],
             rank=r["rank"],
@@ -327,7 +326,6 @@ async def clone_candidate(
     
     for idx, r in enumerate(results_pre_justification):
         r["justification"] = justifications[idx]
-        del r["_raw_candidate"]
         del r["_scores_dict"]
 
     from app.services.radar_service import evaluate_pool_density

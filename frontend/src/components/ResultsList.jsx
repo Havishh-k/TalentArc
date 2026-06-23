@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { CandidateCard } from './CandidateCard';
+import { CandidateProfileDrawer } from './CandidateProfileDrawer';
 import * as XLSX from 'xlsx';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
@@ -29,6 +30,7 @@ function ShimmerCard() {
 
 export function ResultsList({ results, weights, blindMode, jdSkills, totalScanned, latencyMs, loading, poolDensity }) {
   const [exportDropdownOpen, setExportDropdownOpen] = useState(false);
+  const [selectedCandidate, setSelectedCandidate] = useState(null);
   const dropdownRef = useRef(null);
 
   useEffect(() => {
@@ -234,11 +236,19 @@ export function ResultsList({ results, weights, blindMode, jdSkills, totalScanne
             candidate={candidate}
             weights={weights}
             blindMode={blindMode}
+            onSelect={setSelectedCandidate}
             style={{ animationDelay: `${i * 60}ms` }}
             className="opacity-0 animate-fade-slide-up"
           />
         ))}
       </div>
+
+      <CandidateProfileDrawer 
+        isOpen={!!selectedCandidate} 
+        onClose={() => setSelectedCandidate(null)} 
+        candidate={selectedCandidate} 
+        blindMode={blindMode} 
+      />
     </div>
   );
 }

@@ -33,6 +33,7 @@ class CandidateResult(BaseModel):
     retention_risk: RetentionRisk
     radar_data: list[RadarDataPoint]
     blind_mode_applied: bool
+    raw_data: dict
 
 
 class SearchResponse(BaseModel):

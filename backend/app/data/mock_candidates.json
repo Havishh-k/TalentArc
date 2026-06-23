@@ -7,7 +7,8 @@
       "current_title": "Senior ML Engineer",
       "current_company": "Flipkart",
       "location": "Bengaluru, India",
-      "years_experience": 6.5
+      "years_experience": 6.5,
+      "github_handle": "arjunmehta"
     },
     "education": [
       {
@@ -75,7 +76,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 24,
-      "title_progression_score": 8.0
+      "title_progression_score": 8.0,
+      "github_velocity_index": 52.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -90,7 +92,8 @@
       "current_title": "Staff Data Scientist",
       "current_company": "Razorpay",
       "location": "Bengaluru, India",
-      "years_experience": 9.0
+      "years_experience": 9.0,
+      "github_handle": "priyasharma"
     },
     "education": [
       {
@@ -159,7 +162,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 18,
-      "title_progression_score": 9.0
+      "title_progression_score": 9.0,
+      "github_velocity_index": 92.0
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -174,7 +178,8 @@
       "current_title": "Backend Engineer",
       "current_company": "Zoho",
       "location": "Chennai, India",
-      "years_experience": 3.0
+      "years_experience": 3.0,
+      "github_handle": "rahulvenkatesh"
     },
     "education": [
       {
@@ -227,7 +232,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 36,
-      "title_progression_score": 4.0
+      "title_progression_score": 4.0,
+      "github_velocity_index": 52.4
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -242,7 +248,8 @@
       "current_title": "Data Engineer",
       "current_company": "PhonePe",
       "location": "Bengaluru, India",
-      "years_experience": 4.5
+      "years_experience": 4.5,
+      "github_handle": "snehaiyer"
     },
     "education": [
       {
@@ -310,7 +317,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 18,
-      "title_progression_score": 5.5
+      "title_progression_score": 5.5,
+      "github_velocity_index": 77.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -325,7 +333,8 @@
       "current_title": "Engineering Manager",
       "current_company": "Meesho",
       "location": "Bengaluru, India",
-      "years_experience": 11.0
+      "years_experience": 11.0,
+      "github_handle": "karthikraghavan"
     },
     "education": [
       {
@@ -393,7 +402,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 14,
-      "title_progression_score": 9.5
+      "title_progression_score": 9.5,
+      "github_velocity_index": 48.0
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -408,7 +418,8 @@
       "current_title": "ML Research Engineer",
       "current_company": "Google India",
       "location": "Hyderabad, India",
-      "years_experience": 5.0
+      "years_experience": 5.0,
+      "github_handle": "ananyadesai"
     },
     "education": [
       {
@@ -470,7 +481,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 12,
-      "title_progression_score": 8.5
+      "title_progression_score": 8.5,
+      "github_velocity_index": 70.3
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -485,7 +497,8 @@
       "current_title": "Full Stack Developer",
       "current_company": "Cred",
       "location": "Bengaluru, India",
-      "years_experience": 2.5
+      "years_experience": 2.5,
+      "github_handle": "vikramjoshi"
     },
     "education": [
       {
@@ -545,7 +558,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 30,
-      "title_progression_score": 3.5
+      "title_progression_score": 3.5,
+      "github_velocity_index": 67.5
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -560,7 +574,8 @@
       "current_title": "Platform Engineer",
       "current_company": "Zerodha",
       "location": "Bengaluru, India",
-      "years_experience": 7.0
+      "years_experience": 7.0,
+      "github_handle": "deepanair"
     },
     "education": [
       {
@@ -629,7 +644,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 20,
-      "title_progression_score": 7.0
+      "title_progression_score": 7.0,
+      "github_velocity_index": 67.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -644,7 +660,8 @@
       "current_title": "Product Analyst",
       "current_company": "Swiggy",
       "location": "Bengaluru, India",
-      "years_experience": 3.5
+      "years_experience": 3.5,
+      "github_handle": "rohankapoor"
     },
     "education": [
       {
@@ -710,7 +727,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 28,
-      "title_progression_score": 5.0
+      "title_progression_score": 5.0,
+      "github_velocity_index": 62.0
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -725,7 +743,8 @@
       "current_title": "AI/ML Lead",
       "current_company": "Ola Electric",
       "location": "Bengaluru, India",
-      "years_experience": 8.5
+      "years_experience": 8.5,
+      "github_handle": "meerakrishnan"
     },
     "education": [
       {
@@ -801,7 +820,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 16,
-      "title_progression_score": 9.0
+      "title_progression_score": 9.0,
+      "github_velocity_index": 65.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -816,7 +836,8 @@
       "current_title": "Junior Software Engineer",
       "current_company": "Infosys",
       "location": "Pune, India",
-      "years_experience": 1.5
+      "years_experience": 1.5,
+      "github_handle": "adityabanerjee"
     },
     "education": [
       {
@@ -869,7 +890,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 36,
-      "title_progression_score": 2.0
+      "title_progression_score": 2.0,
+      "github_velocity_index": 86.1
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -884,7 +906,8 @@
       "current_title": "MLOps Engineer",
       "current_company": "Myntra",
       "location": "Bengaluru, India",
-      "years_experience": 5.5
+      "years_experience": 5.5,
+      "github_handle": "nishagupta"
     },
     "education": [
       {
@@ -960,7 +983,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 3,
       "promotion_speed_months": 15,
-      "title_progression_score": 6.5
+      "title_progression_score": 6.5,
+      "github_velocity_index": 73.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -975,7 +999,8 @@
       "current_title": "Product Manager",
       "current_company": "Groww",
       "location": "Mumbai, India",
-      "years_experience": 6.0
+      "years_experience": 6.0,
+      "github_handle": "siddharthpatel"
     },
     "education": [
       {
@@ -1048,7 +1073,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 22,
-      "title_progression_score": 7.5
+      "title_progression_score": 7.5,
+      "github_velocity_index": 64.7
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1063,7 +1089,8 @@
       "current_title": "Data Analyst",
       "current_company": "Dunzo",
       "location": "Bengaluru, India",
-      "years_experience": 2.0
+      "years_experience": 2.0,
+      "github_handle": "fatimasheikh"
     },
     "education": [
       {
@@ -1123,7 +1150,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 32,
-      "title_progression_score": 3.0
+      "title_progression_score": 3.0,
+      "github_velocity_index": 71.4
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1138,7 +1166,8 @@
       "current_title": "Principal Architect",
       "current_company": "Walmart Global Tech India",
       "location": "Bengaluru, India",
-      "years_experience": 14.0
+      "years_experience": 14.0,
+      "github_handle": "amitsaxena"
     },
     "education": [
       {
@@ -1214,7 +1243,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 10,
-      "title_progression_score": 10.0
+      "title_progression_score": 10.0,
+      "github_velocity_index": 69.4
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1229,7 +1259,8 @@
       "current_title": "Product Manager",
       "current_company": "Zomato",
       "location": "Delhi, India",
-      "years_experience": 7.6
+      "years_experience": 7.6,
+      "github_handle": "karanpatel"
     },
     "education": [
       {
@@ -1269,7 +1300,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 16,
-      "title_progression_score": 9.0
+      "title_progression_score": 9.0,
+      "github_velocity_index": 51.7
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1284,7 +1316,8 @@
       "current_title": "Backend Developer",
       "current_company": "Uber",
       "location": "Chennai, India",
-      "years_experience": 6.5
+      "years_experience": 6.5,
+      "github_handle": "rahulpatel"
     },
     "education": [
       {
@@ -1325,7 +1358,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 0,
       "promotion_speed_months": 38,
-      "title_progression_score": 7.3
+      "title_progression_score": 7.3,
+      "github_velocity_index": 51.0
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1340,7 +1374,8 @@
       "current_title": "DevOps Engineer",
       "current_company": "Tech Mahindra",
       "location": "Delhi, India",
-      "years_experience": 8.4
+      "years_experience": 8.4,
+      "github_handle": "priyasharma"
     },
     "education": [
       {
@@ -1382,7 +1417,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 25,
-      "title_progression_score": 7.4
+      "title_progression_score": 7.4,
+      "github_velocity_index": 72.5
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1397,7 +1433,8 @@
       "current_title": "Engineering Manager",
       "current_company": "Wipro",
       "location": "Bengaluru, India",
-      "years_experience": 1.7
+      "years_experience": 1.7,
+      "github_handle": "amitkumar"
     },
     "education": [
       {
@@ -1437,7 +1474,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 34,
-      "title_progression_score": 6.2
+      "title_progression_score": 6.2,
+      "github_velocity_index": 78.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1452,7 +1490,8 @@
       "current_title": "Data Analyst",
       "current_company": "Amazon",
       "location": "Pune, India",
-      "years_experience": 4.2
+      "years_experience": 4.2,
+      "github_handle": "poojaverma"
     },
     "education": [
       {
@@ -1496,7 +1535,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 0,
       "promotion_speed_months": 31,
-      "title_progression_score": 9.3
+      "title_progression_score": 9.3,
+      "github_velocity_index": 45.5
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1511,7 +1551,8 @@
       "current_title": "Frontend Developer",
       "current_company": "Tech Mahindra",
       "location": "Mumbai, India",
-      "years_experience": 13.2
+      "years_experience": 13.2,
+      "github_handle": "priyakumar"
     },
     "education": [
       {
@@ -1551,7 +1592,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 0,
       "promotion_speed_months": 23,
-      "title_progression_score": 7.7
+      "title_progression_score": 7.7,
+      "github_velocity_index": 88.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1566,7 +1608,8 @@
       "current_title": "ML Engineer",
       "current_company": "Amazon",
       "location": "Hyderabad, India",
-      "years_experience": 12.8
+      "years_experience": 12.8,
+      "github_handle": "nehagupta"
     },
     "education": [
       {
@@ -1607,7 +1650,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 22,
-      "title_progression_score": 9.1
+      "title_progression_score": 9.1,
+      "github_velocity_index": 80.2
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1622,7 +1666,8 @@
       "current_title": "Data Scientist",
       "current_company": "Uber",
       "location": "Delhi, India",
-      "years_experience": 13.1
+      "years_experience": 13.1,
+      "github_handle": "priyagupta"
     },
     "education": [
       {
@@ -1663,7 +1708,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 47,
-      "title_progression_score": 9.1
+      "title_progression_score": 9.1,
+      "github_velocity_index": 44.3
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1678,7 +1724,8 @@
       "current_title": "ML Engineer",
       "current_company": "TCS",
       "location": "Chennai, India",
-      "years_experience": 8.9
+      "years_experience": 8.9,
+      "github_handle": "priyakumar"
     },
     "education": [
       {
@@ -1722,7 +1769,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 46,
-      "title_progression_score": 5.7
+      "title_progression_score": 5.7,
+      "github_velocity_index": 94.3
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1737,7 +1785,8 @@
       "current_title": "Data Analyst",
       "current_company": "Capgemini",
       "location": "Pune, India",
-      "years_experience": 11.1
+      "years_experience": 11.1,
+      "github_handle": "amitiyer"
     },
     "education": [
       {
@@ -1777,7 +1826,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 17,
-      "title_progression_score": 4.9
+      "title_progression_score": 4.9,
+      "github_velocity_index": 60.3
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1792,7 +1842,8 @@
       "current_title": "Data Scientist",
       "current_company": "Google",
       "location": "Hyderabad, India",
-      "years_experience": 7.6
+      "years_experience": 7.6,
+      "github_handle": "snehakumar"
     },
     "education": [
       {
@@ -1832,7 +1883,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 16,
-      "title_progression_score": 7.1
+      "title_progression_score": 7.1,
+      "github_velocity_index": 90.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1847,7 +1899,8 @@
       "current_title": "Software Engineer",
       "current_company": "Accenture",
       "location": "Mumbai, India",
-      "years_experience": 9.1
+      "years_experience": 9.1,
+      "github_handle": "rahulverma"
     },
     "education": [
       {
@@ -1888,7 +1941,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 3,
       "promotion_speed_months": 46,
-      "title_progression_score": 4.9
+      "title_progression_score": 4.9,
+      "github_velocity_index": 67.6
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1903,7 +1957,8 @@
       "current_title": "DevOps Engineer",
       "current_company": "Flipkart",
       "location": "Delhi, India",
-      "years_experience": 13.5
+      "years_experience": 13.5,
+      "github_handle": "snehaiyer"
     },
     "education": [
       {
@@ -1947,7 +2002,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 0,
       "promotion_speed_months": 14,
-      "title_progression_score": 7.8
+      "title_progression_score": 7.8,
+      "github_velocity_index": 40.4
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -1962,7 +2018,8 @@
       "current_title": "Backend Developer",
       "current_company": "Accenture",
       "location": "Bengaluru, India",
-      "years_experience": 3.9
+      "years_experience": 3.9,
+      "github_handle": "nehasharma"
     },
     "education": [
       {
@@ -2006,7 +2063,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 0,
       "promotion_speed_months": 24,
-      "title_progression_score": 6.0
+      "title_progression_score": 6.0,
+      "github_velocity_index": 84.2
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2021,7 +2079,8 @@
       "current_title": "Data Scientist",
       "current_company": "Google",
       "location": "Mumbai, India",
-      "years_experience": 6.6
+      "years_experience": 6.6,
+      "github_handle": "priyakumar"
     },
     "education": [
       {
@@ -2065,7 +2124,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 3,
       "promotion_speed_months": 28,
-      "title_progression_score": 8.0
+      "title_progression_score": 8.0,
+      "github_velocity_index": 57.4
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2080,7 +2140,8 @@
       "current_title": "Data Analyst",
       "current_company": "IBM",
       "location": "Pune, India",
-      "years_experience": 5.4
+      "years_experience": 5.4,
+      "github_handle": "vikramkumar"
     },
     "education": [
       {
@@ -2122,7 +2183,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 37,
-      "title_progression_score": 4.5
+      "title_progression_score": 4.5,
+      "github_velocity_index": 60.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2137,7 +2199,8 @@
       "current_title": "Frontend Developer",
       "current_company": "Infosys",
       "location": "Bengaluru, India",
-      "years_experience": 8.5
+      "years_experience": 8.5,
+      "github_handle": "nehapatel"
     },
     "education": [
       {
@@ -2181,7 +2244,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 0,
       "promotion_speed_months": 27,
-      "title_progression_score": 6.3
+      "title_progression_score": 6.3,
+      "github_velocity_index": 58.2
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2196,7 +2260,8 @@
       "current_title": "Data Analyst",
       "current_company": "Cognizant",
       "location": "Delhi, India",
-      "years_experience": 9.5
+      "years_experience": 9.5,
+      "github_handle": "karansharma"
     },
     "education": [
       {
@@ -2239,7 +2304,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 38,
-      "title_progression_score": 5.4
+      "title_progression_score": 5.4,
+      "github_velocity_index": 59.7
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2254,7 +2320,8 @@
       "current_title": "ML Engineer",
       "current_company": "Uber",
       "location": "Pune, India",
-      "years_experience": 4.8
+      "years_experience": 4.8,
+      "github_handle": "priyakumar"
     },
     "education": [
       {
@@ -2296,7 +2363,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 32,
-      "title_progression_score": 9.0
+      "title_progression_score": 9.0,
+      "github_velocity_index": 50.1
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2311,7 +2379,8 @@
       "current_title": "ML Engineer",
       "current_company": "Google",
       "location": "Bengaluru, India",
-      "years_experience": 3.2
+      "years_experience": 3.2,
+      "github_handle": "karangupta"
     },
     "education": [
       {
@@ -2352,7 +2421,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 18,
-      "title_progression_score": 9.5
+      "title_progression_score": 9.5,
+      "github_velocity_index": 69.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2367,7 +2437,8 @@
       "current_title": "Data Scientist",
       "current_company": "Google",
       "location": "Mumbai, India",
-      "years_experience": 12.9
+      "years_experience": 12.9,
+      "github_handle": "vikramgupta"
     },
     "education": [
       {
@@ -2409,7 +2480,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 37,
-      "title_progression_score": 6.5
+      "title_progression_score": 6.5,
+      "github_velocity_index": 51.0
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2424,7 +2496,8 @@
       "current_title": "ML Engineer",
       "current_company": "Accenture",
       "location": "Gurugram, India",
-      "years_experience": 1.8
+      "years_experience": 1.8,
+      "github_handle": "amitgupta"
     },
     "education": [
       {
@@ -2467,7 +2540,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 33,
-      "title_progression_score": 6.5
+      "title_progression_score": 6.5,
+      "github_velocity_index": 50.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2482,7 +2556,8 @@
       "current_title": "Frontend Developer",
       "current_company": "Wipro",
       "location": "Noida, India",
-      "years_experience": 1.8
+      "years_experience": 1.8,
+      "github_handle": "poojadas"
     },
     "education": [
       {
@@ -2522,7 +2597,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 3,
       "promotion_speed_months": 14,
-      "title_progression_score": 5.2
+      "title_progression_score": 5.2,
+      "github_velocity_index": 46.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2537,7 +2613,8 @@
       "current_title": "Backend Developer",
       "current_company": "Cognizant",
       "location": "Hyderabad, India",
-      "years_experience": 3.3
+      "years_experience": 3.3,
+      "github_handle": "amitverma"
     },
     "education": [
       {
@@ -2580,7 +2657,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 0,
       "promotion_speed_months": 12,
-      "title_progression_score": 7.6
+      "title_progression_score": 7.6,
+      "github_velocity_index": 80.2
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2595,7 +2673,8 @@
       "current_title": "Product Manager",
       "current_company": "Wipro",
       "location": "Chennai, India",
-      "years_experience": 9.7
+      "years_experience": 9.7,
+      "github_handle": "nehapatel"
     },
     "education": [
       {
@@ -2635,7 +2714,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 3,
       "promotion_speed_months": 16,
-      "title_progression_score": 4.3
+      "title_progression_score": 4.3,
+      "github_velocity_index": 53.3
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2650,7 +2730,8 @@
       "current_title": "Data Scientist",
       "current_company": "HCL",
       "location": "Hyderabad, India",
-      "years_experience": 8.5
+      "years_experience": 8.5,
+      "github_handle": "nehagupta"
     },
     "education": [
       {
@@ -2691,7 +2772,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 13,
-      "title_progression_score": 5.3
+      "title_progression_score": 5.3,
+      "github_velocity_index": 83.0
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2706,7 +2788,8 @@
       "current_title": "DevOps Engineer",
       "current_company": "Uber",
       "location": "Mumbai, India",
-      "years_experience": 1.4
+      "years_experience": 1.4,
+      "github_handle": "karanpatel"
     },
     "education": [
       {
@@ -2748,7 +2831,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 3,
       "promotion_speed_months": 38,
-      "title_progression_score": 6.5
+      "title_progression_score": 6.5,
+      "github_velocity_index": 42.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2763,7 +2847,8 @@
       "current_title": "Data Analyst",
       "current_company": "Google",
       "location": "Hyderabad, India",
-      "years_experience": 8.7
+      "years_experience": 8.7,
+      "github_handle": "rohannair"
     },
     "education": [
       {
@@ -2806,7 +2891,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 31,
-      "title_progression_score": 4.6
+      "title_progression_score": 4.6,
+      "github_velocity_index": 79.5
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2821,7 +2907,8 @@
       "current_title": "Backend Developer",
       "current_company": "Capgemini",
       "location": "Pune, India",
-      "years_experience": 2.5
+      "years_experience": 2.5,
+      "github_handle": "amitnair"
     },
     "education": [
       {
@@ -2863,7 +2950,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 42,
-      "title_progression_score": 6.6
+      "title_progression_score": 6.6,
+      "github_velocity_index": 89.0
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2878,7 +2966,8 @@
       "current_title": "Backend Developer",
       "current_company": "Cognizant",
       "location": "Gurugram, India",
-      "years_experience": 2.4
+      "years_experience": 2.4,
+      "github_handle": "vikramverma"
     },
     "education": [
       {
@@ -2922,7 +3011,8 @@
       "num_companies_total": 3,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 14,
-      "title_progression_score": 7.2
+      "title_progression_score": 7.2,
+      "github_velocity_index": 68.4
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2937,7 +3027,8 @@
       "current_title": "Data Scientist",
       "current_company": "Wipro",
       "location": "Noida, India",
-      "years_experience": 6.0
+      "years_experience": 6.0,
+      "github_handle": "nehanair"
     },
     "education": [
       {
@@ -2980,7 +3071,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 26,
-      "title_progression_score": 4.2
+      "title_progression_score": 4.2,
+      "github_velocity_index": 88.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -2995,7 +3087,8 @@
       "current_title": "ML Engineer",
       "current_company": "Swiggy",
       "location": "Pune, India",
-      "years_experience": 10.0
+      "years_experience": 10.0,
+      "github_handle": "anjalisingh"
     },
     "education": [
       {
@@ -3039,7 +3132,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 2,
       "promotion_speed_months": 25,
-      "title_progression_score": 5.0
+      "title_progression_score": 5.0,
+      "github_velocity_index": 84.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -3054,7 +3148,8 @@
       "current_title": "Product Manager",
       "current_company": "Accenture",
       "location": "Mumbai, India",
-      "years_experience": 2.0
+      "years_experience": 2.0,
+      "github_handle": "rahulgupta"
     },
     "education": [
       {
@@ -3097,7 +3192,8 @@
       "num_companies_total": 1,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 16,
-      "title_progression_score": 9.2
+      "title_progression_score": 9.2,
+      "github_velocity_index": 48.9
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -3112,7 +3208,8 @@
       "current_title": "Software Engineer",
       "current_company": "Google",
       "location": "Noida, India",
-      "years_experience": 5.2
+      "years_experience": 5.2,
+      "github_handle": "nehakumar"
     },
     "education": [
       {
@@ -3154,7 +3251,8 @@
       "num_companies_total": 2,
       "num_companies_last_3yr": 3,
       "promotion_speed_months": 16,
-      "title_progression_score": 9.4
+      "title_progression_score": 9.4,
+      "github_velocity_index": 57.8
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
@@ -3169,7 +3267,8 @@
       "current_title": "Data Scientist",
       "current_company": "Tech Mahindra",
       "location": "Gurugram, India",
-      "years_experience": 13.3
+      "years_experience": 13.3,
+      "github_handle": "nehasharma"
     },
     "education": [
       {
@@ -3212,7 +3311,8 @@
       "num_companies_total": 4,
       "num_companies_last_3yr": 1,
       "promotion_speed_months": 42,
-      "title_progression_score": 8.8
+      "title_progression_score": 8.8,
+      "github_velocity_index": 78.5
     },
     "computed_at_seed": {
       "embedding_model": "all-MiniLM-L6-v2",
