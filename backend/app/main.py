@@ -17,10 +17,10 @@ async def lifespan(app: FastAPI):
     try:
         collection = get_collection()
         if collection.count() == 0:
-            print("[startup] ChromaDB collection empty — auto-seeding...")
+            print("[startup] ChromaDB collection empty — auto-seeding in background...")
             from app.router import seed_candidates
-            seed_candidates()
-            print("[startup] Auto-seeded mock candidates.")
+            import threading
+            threading.Thread(target=seed_candidates, daemon=True).start()
         else:
             print(f"[startup] ChromaDB ready — {collection.count()} candidates indexed.")
     except Exception as e:
