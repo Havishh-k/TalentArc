@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { X, MapPin, Briefcase, GraduationCap, Code, Star, CheckCircle, Github } from 'lucide-react';
+import { X, MapPin, Briefcase, GraduationCap, Code, Star, CheckCircle, GitBranch } from 'lucide-react';
 
 export function CandidateProfileDrawer({ isOpen, onClose, candidate, blindMode }) {
   const [mounted, setMounted] = useState(false);
@@ -87,7 +87,7 @@ export function CandidateProfileDrawer({ isOpen, onClose, candidate, blindMode }
               </p>
               {!blindMode && personal.github_handle && (
                 <p className="text-xs text-text-tertiary flex items-center gap-2 mt-1">
-                  <Github size={14} />
+                  <GitBranch size={14} />
                   github.com/{personal.github_handle}
                 </p>
               )}
