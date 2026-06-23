@@ -1,0 +1,3222 @@
+[
+  {
+    "candidate_id": "c001",
+    "personal": {
+      "full_name": "Arjun Mehta",
+      "display_photo_url": "/avatars/c001.png",
+      "current_title": "Senior ML Engineer",
+      "current_company": "Flipkart",
+      "location": "Bengaluru, India",
+      "years_experience": 6.5
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Flipkart",
+        "title": "Senior ML Engineer",
+        "start_month": "2022-03",
+        "end_month": null,
+        "tenure_months": 27
+      },
+      {
+        "company": "Swiggy",
+        "title": "ML Engineer",
+        "start_month": "2020-01",
+        "end_month": "2022-02",
+        "tenure_months": 25
+      },
+      {
+        "company": "Infosys",
+        "title": "Software Engineer",
+        "start_month": "2018-07",
+        "end_month": "2019-12",
+        "tenure_months": 17
+      }
+    ],
+    "skills": [
+      "Python",
+      "PyTorch",
+      "MLflow",
+      "Kubernetes",
+      "SQL",
+      "Spark",
+      "FastAPI"
+    ],
+    "projects": [
+      {
+        "title": "Real-time Fraud Detection Pipeline",
+        "description": "Built and deployed an ensemble model using XGBoost and LSTM for transaction anomaly detection, reducing false positives by 34% on 50M daily events.",
+        "technologies": [
+          "Python",
+          "Kafka",
+          "Kubernetes",
+          "XGBoost"
+        ]
+      },
+      {
+        "title": "Recommendation Engine Rewrite",
+        "description": "Redesigned collaborative filtering system using two-tower neural architecture, lifting CTR by 12% across 8M users.",
+        "technologies": [
+          "PyTorch",
+          "Airflow",
+          "Redis",
+          "Spark"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 23.0,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 24,
+      "title_progression_score": 8.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Senior ML Engineer Python PyTorch MLflow Kubernetes SQL Spark FastAPI Real-time Fraud Detection Pipeline Built and deployed..."
+    }
+  },
+  {
+    "candidate_id": "c002",
+    "personal": {
+      "full_name": "Priya Sharma",
+      "display_photo_url": "/avatars/c002.png",
+      "current_title": "Staff Data Scientist",
+      "current_company": "Razorpay",
+      "location": "Bengaluru, India",
+      "years_experience": 9.0
+    },
+    "education": [
+      {
+        "institution": "IISc Bangalore",
+        "degree": "M.Tech Machine Learning",
+        "graduation_year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Razorpay",
+        "title": "Staff Data Scientist",
+        "start_month": "2021-06",
+        "end_month": null,
+        "tenure_months": 36
+      },
+      {
+        "company": "Amazon India",
+        "title": "Senior Data Scientist",
+        "start_month": "2018-08",
+        "end_month": "2021-05",
+        "tenure_months": 33
+      },
+      {
+        "company": "Mu Sigma",
+        "title": "Data Scientist",
+        "start_month": "2016-07",
+        "end_month": "2018-07",
+        "tenure_months": 24
+      }
+    ],
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "SQL",
+      "Spark",
+      "MLOps",
+      "Airflow",
+      "Tableau",
+      "Communication"
+    ],
+    "projects": [
+      {
+        "title": "Merchant Risk Scoring Platform",
+        "description": "Designed and deployed a gradient-boosted risk model scoring 200K+ merchants daily, reducing fraud losses by 22% while maintaining a 99.5% approval rate.",
+        "technologies": [
+          "Python",
+          "XGBoost",
+          "Airflow",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Churn Prediction System",
+        "description": "Built a multi-signal churn prediction pipeline integrating transactional, behavioral, and support ticket data, achieving 0.89 AUC on a 60-day prediction window.",
+        "technologies": [
+          "TensorFlow",
+          "Spark",
+          "Kafka",
+          "Redshift"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 31.0,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 18,
+      "title_progression_score": 9.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Staff Data Scientist Python TensorFlow SQL Spark MLOps Airflow Tableau Communication Merchant Risk Scoring Platform..."
+    }
+  },
+  {
+    "candidate_id": "c003",
+    "personal": {
+      "full_name": "Rahul Venkatesh",
+      "display_photo_url": "/avatars/c003.png",
+      "current_title": "Backend Engineer",
+      "current_company": "Zoho",
+      "location": "Chennai, India",
+      "years_experience": 3.0
+    },
+    "education": [
+      {
+        "institution": "Anna University",
+        "degree": "B.E. Computer Science",
+        "graduation_year": 2022
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Zoho",
+        "title": "Backend Engineer",
+        "start_month": "2022-07",
+        "end_month": null,
+        "tenure_months": 35
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "SQL",
+      "Spring Boot",
+      "Redis",
+      "Docker"
+    ],
+    "projects": [
+      {
+        "title": "Multi-tenant Notification Service",
+        "description": "Architected a horizontally scalable notification service handling 5M push, email, and SMS events per day across 12 product lines.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Redis",
+          "RabbitMQ"
+        ]
+      },
+      {
+        "title": "API Gateway Rate Limiter",
+        "description": "Implemented a token-bucket rate limiter middleware reducing API abuse by 60% without impacting p99 latencies for legitimate traffic.",
+        "technologies": [
+          "Java",
+          "Redis",
+          "Nginx",
+          "Docker"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 35.0,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 36,
+      "title_progression_score": 4.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Backend Engineer Java Python SQL Spring Boot Redis Docker Multi-tenant Notification Service Architected a horizontally..."
+    }
+  },
+  {
+    "candidate_id": "c004",
+    "personal": {
+      "full_name": "Sneha Iyer",
+      "display_photo_url": "/avatars/c004.png",
+      "current_title": "Data Engineer",
+      "current_company": "PhonePe",
+      "location": "Bengaluru, India",
+      "years_experience": 4.5
+    },
+    "education": [
+      {
+        "institution": "NIT Trichy",
+        "degree": "B.Tech Information Technology",
+        "graduation_year": 2020
+      }
+    ],
+    "career_history": [
+      {
+        "company": "PhonePe",
+        "title": "Data Engineer",
+        "start_month": "2023-01",
+        "end_month": null,
+        "tenure_months": 17
+      },
+      {
+        "company": "Freshworks",
+        "title": "Data Engineer",
+        "start_month": "2021-06",
+        "end_month": "2022-12",
+        "tenure_months": 18
+      },
+      {
+        "company": "TCS",
+        "title": "Systems Engineer",
+        "start_month": "2020-07",
+        "end_month": "2021-05",
+        "tenure_months": 10
+      }
+    ],
+    "skills": [
+      "Python",
+      "Spark",
+      "Airflow",
+      "SQL",
+      "Kafka",
+      "AWS",
+      "dbt"
+    ],
+    "projects": [
+      {
+        "title": "Real-time Settlement Reconciliation",
+        "description": "Built a Spark Streaming pipeline reconciling 3M+ UPI transactions per hour against bank settlement files, reducing discrepancy resolution time from 48h to 2h.",
+        "technologies": [
+          "Spark",
+          "Kafka",
+          "Python",
+          "Delta Lake"
+        ]
+      },
+      {
+        "title": "Data Quality Framework",
+        "description": "Designed an automated data quality monitoring framework using Great Expectations, catching 95% of schema drift issues before they reached production dashboards.",
+        "technologies": [
+          "Python",
+          "dbt",
+          "Great Expectations",
+          "Airflow"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 15.0,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 18,
+      "title_progression_score": 5.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Engineer Python Spark Airflow SQL Kafka AWS dbt Real-time Settlement Reconciliation Built a Spark Streaming pipeline..."
+    }
+  },
+  {
+    "candidate_id": "c005",
+    "personal": {
+      "full_name": "Karthik Raghavan",
+      "display_photo_url": "/avatars/c005.png",
+      "current_title": "Engineering Manager",
+      "current_company": "Meesho",
+      "location": "Bengaluru, India",
+      "years_experience": 11.0
+    },
+    "education": [
+      {
+        "institution": "BITS Pilani",
+        "degree": "B.E. Computer Science",
+        "graduation_year": 2014
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Meesho",
+        "title": "Engineering Manager",
+        "start_month": "2022-01",
+        "end_month": null,
+        "tenure_months": 29
+      },
+      {
+        "company": "Flipkart",
+        "title": "Senior Software Engineer",
+        "start_month": "2018-06",
+        "end_month": "2021-12",
+        "tenure_months": 42
+      },
+      {
+        "company": "Cisco",
+        "title": "Software Engineer",
+        "start_month": "2014-07",
+        "end_month": "2018-05",
+        "tenure_months": 46
+      }
+    ],
+    "skills": [
+      "Python",
+      "System Design",
+      "Kubernetes",
+      "Microservices",
+      "SQL",
+      "Leadership",
+      "Communication"
+    ],
+    "projects": [
+      {
+        "title": "Catalog Ingestion Platform Redesign",
+        "description": "Led a team of 8 engineers to rebuild the seller catalog pipeline from monolith to event-driven microservices, handling 2M listings/day with 99.9% SLA.",
+        "technologies": [
+          "Python",
+          "Kubernetes",
+          "Kafka",
+          "gRPC"
+        ]
+      },
+      {
+        "title": "Platform Reliability Initiative",
+        "description": "Drove a cross-functional reliability program that reduced P1 incidents by 45% over 6 months through automated canary deployments and circuit breakers.",
+        "technologies": [
+          "Kubernetes",
+          "Istio",
+          "Prometheus",
+          "Grafana"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 39.0,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 14,
+      "title_progression_score": 9.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Engineering Manager Python System Design Kubernetes Microservices SQL Leadership Communication Catalog Ingestion Platform..."
+    }
+  },
+  {
+    "candidate_id": "c006",
+    "personal": {
+      "full_name": "Ananya Desai",
+      "display_photo_url": "/avatars/c006.png",
+      "current_title": "ML Research Engineer",
+      "current_company": "Google India",
+      "location": "Hyderabad, India",
+      "years_experience": 5.0
+    },
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "M.Tech Artificial Intelligence",
+        "graduation_year": 2020
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Google India",
+        "title": "ML Research Engineer",
+        "start_month": "2022-09",
+        "end_month": null,
+        "tenure_months": 21
+      },
+      {
+        "company": "Microsoft IDC",
+        "title": "Applied Scientist",
+        "start_month": "2020-08",
+        "end_month": "2022-08",
+        "tenure_months": 24
+      }
+    ],
+    "skills": [
+      "Python",
+      "PyTorch",
+      "JAX",
+      "NLP",
+      "Transformers",
+      "MLOps",
+      "System Design",
+      "C++"
+    ],
+    "projects": [
+      {
+        "title": "Multilingual Query Understanding",
+        "description": "Developed a transformer-based query classification model supporting 9 Indic languages, improving search relevance by 18% on low-resource languages.",
+        "technologies": [
+          "PyTorch",
+          "Hugging Face",
+          "ONNX",
+          "Kubernetes"
+        ]
+      },
+      {
+        "title": "Conversational AI Grounding Pipeline",
+        "description": "Designed a retrieval-augmented generation pipeline for factual grounding of LLM responses, reducing hallucination rate by 40% in production.",
+        "technologies": [
+          "JAX",
+          "LangChain",
+          "ChromaDB",
+          "FastAPI"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 22.5,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 12,
+      "title_progression_score": 8.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "ML Research Engineer Python PyTorch JAX NLP Transformers MLOps System Design C++ Multilingual Query Understanding..."
+    }
+  },
+  {
+    "candidate_id": "c007",
+    "personal": {
+      "full_name": "Vikram Joshi",
+      "display_photo_url": "/avatars/c007.png",
+      "current_title": "Full Stack Developer",
+      "current_company": "Cred",
+      "location": "Bengaluru, India",
+      "years_experience": 2.5
+    },
+    "education": [
+      {
+        "institution": "VIT Vellore",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2022
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Cred",
+        "title": "Full Stack Developer",
+        "start_month": "2023-06",
+        "end_month": null,
+        "tenure_months": 12
+      },
+      {
+        "company": "Startup (stealth)",
+        "title": "Frontend Developer",
+        "start_month": "2022-08",
+        "end_month": "2023-05",
+        "tenure_months": 9
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL"
+    ],
+    "projects": [
+      {
+        "title": "Credit Score Dashboard",
+        "description": "Built a real-time credit score visualization dashboard with animated charts serving 500K monthly active users, achieving sub-200ms Time to Interactive.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "D3.js",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Micro-frontend Architecture Migration",
+        "description": "Migrated a monolithic React app to a module federation micro-frontend architecture, reducing build times by 70% and enabling independent team deployments.",
+        "technologies": [
+          "React",
+          "Webpack",
+          "Module Federation",
+          "TypeScript"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 10.5,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 30,
+      "title_progression_score": 3.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Full Stack Developer JavaScript React Node.js TypeScript Tailwind CSS PostgreSQL Credit Score Dashboard Built a real-time..."
+    }
+  },
+  {
+    "candidate_id": "c008",
+    "personal": {
+      "full_name": "Deepa Nair",
+      "display_photo_url": "/avatars/c008.png",
+      "current_title": "Platform Engineer",
+      "current_company": "Zerodha",
+      "location": "Bengaluru, India",
+      "years_experience": 7.0
+    },
+    "education": [
+      {
+        "institution": "NIT Surathkal",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Zerodha",
+        "title": "Platform Engineer",
+        "start_month": "2021-01",
+        "end_month": null,
+        "tenure_months": 41
+      },
+      {
+        "company": "Directi",
+        "title": "DevOps Engineer",
+        "start_month": "2019-03",
+        "end_month": "2020-12",
+        "tenure_months": 21
+      },
+      {
+        "company": "Wipro",
+        "title": "Systems Engineer",
+        "start_month": "2018-07",
+        "end_month": "2019-02",
+        "tenure_months": 7
+      }
+    ],
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Python",
+      "System Design",
+      "Docker",
+      "Prometheus"
+    ],
+    "projects": [
+      {
+        "title": "Zero-downtime Deployment Pipeline",
+        "description": "Engineered a blue-green deployment pipeline for trading systems handling 15M orders/day, achieving zero-downtime releases with automated rollback on error budget breach.",
+        "technologies": [
+          "Go",
+          "Kubernetes",
+          "ArgoCD",
+          "Terraform"
+        ]
+      },
+      {
+        "title": "Observability Stack Overhaul",
+        "description": "Replaced fragmented monitoring with a unified observability platform using OpenTelemetry, reducing mean time to detection from 12 minutes to 90 seconds.",
+        "technologies": [
+          "Prometheus",
+          "Grafana",
+          "OpenTelemetry",
+          "Loki"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 23.0,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 20,
+      "title_progression_score": 7.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Platform Engineer Go Kubernetes Terraform AWS Python System Design Docker Prometheus Zero-downtime Deployment Pipeline..."
+    }
+  },
+  {
+    "candidate_id": "c009",
+    "personal": {
+      "full_name": "Rohan Kapoor",
+      "display_photo_url": "/avatars/c009.png",
+      "current_title": "Product Analyst",
+      "current_company": "Swiggy",
+      "location": "Bengaluru, India",
+      "years_experience": 3.5
+    },
+    "education": [
+      {
+        "institution": "IIM Ahmedabad",
+        "degree": "MBA",
+        "graduation_year": 2021
+      },
+      {
+        "institution": "SRCC Delhi",
+        "degree": "B.Com Honours",
+        "graduation_year": 2019
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Swiggy",
+        "title": "Product Analyst",
+        "start_month": "2023-03",
+        "end_month": null,
+        "tenure_months": 15
+      },
+      {
+        "company": "McKinsey",
+        "title": "Business Analyst",
+        "start_month": "2021-06",
+        "end_month": "2023-02",
+        "tenure_months": 20
+      }
+    ],
+    "skills": [
+      "SQL",
+      "Python",
+      "Tableau",
+      "A/B Testing",
+      "Communication",
+      "Product Thinking",
+      "Excel"
+    ],
+    "projects": [
+      {
+        "title": "Dynamic Pricing Experimentation Framework",
+        "description": "Designed and ran 15 A/B experiments on surge pricing algorithms, identifying a pricing model variant that increased revenue per order by 8% without impacting order volume.",
+        "technologies": [
+          "Python",
+          "SQL",
+          "Tableau",
+          "Statsmodels"
+        ]
+      },
+      {
+        "title": "Customer Segmentation Engine",
+        "description": "Built an RFM-based customer segmentation model across 20M users, enabling targeted push notification campaigns that improved 7-day retention by 6%.",
+        "technologies": [
+          "Python",
+          "SQL",
+          "Looker",
+          "BigQuery"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 17.5,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 28,
+      "title_progression_score": 5.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Product Analyst SQL Python Tableau A/B Testing Communication Product Thinking Excel Dynamic Pricing Experimentation..."
+    }
+  },
+  {
+    "candidate_id": "c010",
+    "personal": {
+      "full_name": "Meera Krishnan",
+      "display_photo_url": "/avatars/c010.png",
+      "current_title": "AI/ML Lead",
+      "current_company": "Ola Electric",
+      "location": "Bengaluru, India",
+      "years_experience": 8.5
+    },
+    "education": [
+      {
+        "institution": "IIT Madras",
+        "degree": "Dual Degree (B.Tech + M.Tech) Computer Science",
+        "graduation_year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Ola Electric",
+        "title": "AI/ML Lead",
+        "start_month": "2023-04",
+        "end_month": null,
+        "tenure_months": 14
+      },
+      {
+        "company": "Uber India",
+        "title": "Senior ML Engineer",
+        "start_month": "2020-09",
+        "end_month": "2023-03",
+        "tenure_months": 30
+      },
+      {
+        "company": "Samsung R&D",
+        "title": "ML Engineer",
+        "start_month": "2018-01",
+        "end_month": "2020-08",
+        "tenure_months": 31
+      },
+      {
+        "company": "Ericsson",
+        "title": "Software Developer",
+        "start_month": "2016-07",
+        "end_month": "2017-12",
+        "tenure_months": 17
+      }
+    ],
+    "skills": [
+      "Python",
+      "PyTorch",
+      "MLOps",
+      "Computer Vision",
+      "Edge AI",
+      "System Design",
+      "Spark",
+      "SQL"
+    ],
+    "projects": [
+      {
+        "title": "Battery Anomaly Detection System",
+        "description": "Built and deployed a real-time anomaly detection system for EV battery telemetry across 100K+ vehicles using temporal convolutional networks, catching 92% of thermal events 30 minutes before threshold breach.",
+        "technologies": [
+          "PyTorch",
+          "Kafka",
+          "Kubernetes",
+          "InfluxDB"
+        ]
+      },
+      {
+        "title": "Driver Demand Forecasting",
+        "description": "Developed a multi-horizon demand forecasting model using transformers and graph neural networks, reducing supply-demand mismatch by 15% in top 10 Indian cities.",
+        "technologies": [
+          "Python",
+          "TensorFlow",
+          "Spark",
+          "Airflow"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 23.0,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 16,
+      "title_progression_score": 9.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "AI/ML Lead Python PyTorch MLOps Computer Vision Edge AI System Design Spark SQL Battery Anomaly Detection System Built..."
+    }
+  },
+  {
+    "candidate_id": "c011",
+    "personal": {
+      "full_name": "Aditya Banerjee",
+      "display_photo_url": "/avatars/c011.png",
+      "current_title": "Junior Software Engineer",
+      "current_company": "Infosys",
+      "location": "Pune, India",
+      "years_experience": 1.5
+    },
+    "education": [
+      {
+        "institution": "Jadavpur University",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2023
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Infosys",
+        "title": "Junior Software Engineer",
+        "start_month": "2023-09",
+        "end_month": null,
+        "tenure_months": 21
+      }
+    ],
+    "skills": [
+      "Java",
+      "Python",
+      "SQL",
+      "Spring Boot",
+      "Git",
+      "REST APIs"
+    ],
+    "projects": [
+      {
+        "title": "Invoice Processing Automation",
+        "description": "Developed a rule-based invoice extraction module using regex and template matching, automating 60% of manual data entry for a Fortune 500 insurance client.",
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "PostgreSQL",
+          "Tesseract OCR"
+        ]
+      },
+      {
+        "title": "Internal Timesheet Dashboard",
+        "description": "Built a full-stack timesheet management dashboard for a 200-person delivery unit, replacing a shared spreadsheet workflow.",
+        "technologies": [
+          "React",
+          "Java",
+          "Spring Boot",
+          "MySQL"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 21.0,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 36,
+      "title_progression_score": 2.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Junior Software Engineer Java Python SQL Spring Boot Git REST APIs Invoice Processing Automation Developed a rule-based..."
+    }
+  },
+  {
+    "candidate_id": "c012",
+    "personal": {
+      "full_name": "Nisha Gupta",
+      "display_photo_url": "/avatars/c012.png",
+      "current_title": "MLOps Engineer",
+      "current_company": "Myntra",
+      "location": "Bengaluru, India",
+      "years_experience": 5.5
+    },
+    "education": [
+      {
+        "institution": "IIIT Hyderabad",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2019
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Myntra",
+        "title": "MLOps Engineer",
+        "start_month": "2023-08",
+        "end_month": null,
+        "tenure_months": 10
+      },
+      {
+        "company": "ShareChat",
+        "title": "ML Platform Engineer",
+        "start_month": "2022-01",
+        "end_month": "2023-07",
+        "tenure_months": 18
+      },
+      {
+        "company": "Fractal Analytics",
+        "title": "Data Engineer",
+        "start_month": "2020-06",
+        "end_month": "2021-12",
+        "tenure_months": 18
+      },
+      {
+        "company": "Accenture",
+        "title": "Analyst",
+        "start_month": "2019-07",
+        "end_month": "2020-05",
+        "tenure_months": 10
+      }
+    ],
+    "skills": [
+      "Python",
+      "MLflow",
+      "Kubernetes",
+      "Docker",
+      "Airflow",
+      "Terraform",
+      "FastAPI",
+      "SQL"
+    ],
+    "projects": [
+      {
+        "title": "Automated Model Retraining Pipeline",
+        "description": "Built an end-to-end ML pipeline with automated drift detection, retraining triggers, and shadow deployment for 12 recommendation models, reducing model staleness by 75%.",
+        "technologies": [
+          "MLflow",
+          "Airflow",
+          "Kubernetes",
+          "Python"
+        ]
+      },
+      {
+        "title": "Feature Store Implementation",
+        "description": "Designed and deployed a centralized feature store serving 50+ ML models with sub-10ms latency, eliminating training-serving skew across the ML organization.",
+        "technologies": [
+          "Feast",
+          "Redis",
+          "Spark",
+          "FastAPI"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 14.0,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 3,
+      "promotion_speed_months": 15,
+      "title_progression_score": 6.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "MLOps Engineer Python MLflow Kubernetes Docker Airflow Terraform FastAPI SQL Automated Model Retraining Pipeline Built an..."
+    }
+  },
+  {
+    "candidate_id": "c013",
+    "personal": {
+      "full_name": "Siddharth Patel",
+      "display_photo_url": "/avatars/c013.png",
+      "current_title": "Product Manager",
+      "current_company": "Groww",
+      "location": "Mumbai, India",
+      "years_experience": 6.0
+    },
+    "education": [
+      {
+        "institution": "IIT Kharagpur",
+        "degree": "B.Tech Mechanical Engineering",
+        "graduation_year": 2018
+      },
+      {
+        "institution": "ISB Hyderabad",
+        "degree": "PGP (MBA)",
+        "graduation_year": 2020
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Groww",
+        "title": "Product Manager",
+        "start_month": "2022-04",
+        "end_month": null,
+        "tenure_months": 26
+      },
+      {
+        "company": "Paytm",
+        "title": "Associate Product Manager",
+        "start_month": "2020-06",
+        "end_month": "2022-03",
+        "tenure_months": 21
+      },
+      {
+        "company": "Tata Steel",
+        "title": "Graduate Engineer Trainee",
+        "start_month": "2018-07",
+        "end_month": "2019-06",
+        "tenure_months": 11
+      }
+    ],
+    "skills": [
+      "Product Strategy",
+      "SQL",
+      "A/B Testing",
+      "Figma",
+      "Communication",
+      "Python",
+      "Data Analysis"
+    ],
+    "projects": [
+      {
+        "title": "Mutual Fund SIP Onboarding Redesign",
+        "description": "Led the end-to-end redesign of the SIP onboarding flow, reducing drop-off rate by 35% and increasing monthly SIP starts by 28% across 10M+ users.",
+        "technologies": [
+          "Figma",
+          "Amplitude",
+          "SQL",
+          "Python"
+        ]
+      },
+      {
+        "title": "KYC Automation Platform",
+        "description": "Defined product requirements and drove the build of an AI-powered KYC verification system processing 50K verifications/day with 97% straight-through rate.",
+        "technologies": [
+          "Python",
+          "OCR",
+          "REST APIs",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 19.3,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 22,
+      "title_progression_score": 7.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Product Manager Product Strategy SQL A/B Testing Figma Communication Python Data Analysis Mutual Fund SIP Onboarding..."
+    }
+  },
+  {
+    "candidate_id": "c014",
+    "personal": {
+      "full_name": "Fatima Sheikh",
+      "display_photo_url": "/avatars/c014.png",
+      "current_title": "Data Analyst",
+      "current_company": "Dunzo",
+      "location": "Bengaluru, India",
+      "years_experience": 2.0
+    },
+    "education": [
+      {
+        "institution": "Christ University",
+        "degree": "BBA (Business Analytics)",
+        "graduation_year": 2022
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Dunzo",
+        "title": "Data Analyst",
+        "start_month": "2024-01",
+        "end_month": null,
+        "tenure_months": 5
+      },
+      {
+        "company": "Acko Insurance",
+        "title": "Data Analyst Intern \u2192 Data Analyst",
+        "start_month": "2022-06",
+        "end_month": "2023-12",
+        "tenure_months": 18
+      }
+    ],
+    "skills": [
+      "SQL",
+      "Python",
+      "Tableau",
+      "Excel",
+      "Power BI",
+      "Communication"
+    ],
+    "projects": [
+      {
+        "title": "Last-mile Delivery SLA Dashboard",
+        "description": "Built a real-time operations dashboard tracking delivery SLA adherence across 8 cities, enabling ops managers to identify bottleneck zones within 5 minutes of breach.",
+        "technologies": [
+          "SQL",
+          "Tableau",
+          "Python",
+          "Redshift"
+        ]
+      },
+      {
+        "title": "Claims Funnel Analysis",
+        "description": "Analyzed the end-to-end insurance claims funnel across 500K claims, identifying a document upload friction point responsible for 22% of claim abandonment.",
+        "technologies": [
+          "SQL",
+          "Python",
+          "Excel",
+          "Google Sheets"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 11.5,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 32,
+      "title_progression_score": 3.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Analyst SQL Python Tableau Excel Power BI Communication Last-mile Delivery SLA Dashboard Built a real-time operations..."
+    }
+  },
+  {
+    "candidate_id": "c015",
+    "personal": {
+      "full_name": "Amit Saxena",
+      "display_photo_url": "/avatars/c015.png",
+      "current_title": "Principal Architect",
+      "current_company": "Walmart Global Tech India",
+      "location": "Bengaluru, India",
+      "years_experience": 14.0
+    },
+    "education": [
+      {
+        "institution": "IIT Kanpur",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2011
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Walmart Global Tech India",
+        "title": "Principal Architect",
+        "start_month": "2021-03",
+        "end_month": null,
+        "tenure_months": 39
+      },
+      {
+        "company": "Flipkart",
+        "title": "Staff Engineer",
+        "start_month": "2017-01",
+        "end_month": "2021-02",
+        "tenure_months": 49
+      },
+      {
+        "company": "Oracle",
+        "title": "Senior Software Engineer",
+        "start_month": "2014-01",
+        "end_month": "2016-12",
+        "tenure_months": 35
+      },
+      {
+        "company": "Adobe",
+        "title": "Software Engineer",
+        "start_month": "2011-07",
+        "end_month": "2013-12",
+        "tenure_months": 29
+      }
+    ],
+    "skills": [
+      "System Design",
+      "Java",
+      "Python",
+      "Microservices",
+      "Distributed Systems",
+      "SQL",
+      "Kafka",
+      "Leadership"
+    ],
+    "projects": [
+      {
+        "title": "Global Inventory Orchestration Layer",
+        "description": "Architected a distributed inventory management system spanning 10,500 stores and 12 fulfillment centers, processing 1.2B inventory updates daily with eventual consistency guarantees.",
+        "technologies": [
+          "Java",
+          "Kafka",
+          "Cassandra",
+          "Kubernetes"
+        ]
+      },
+      {
+        "title": "Cart-to-Checkout Latency Reduction",
+        "description": "Led a performance re-architecture of the checkout pipeline reducing p95 latency from 4.2s to 800ms during peak Big Billion Days traffic (300K concurrent users).",
+        "technologies": [
+          "Java",
+          "Redis",
+          "gRPC",
+          "Envoy"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 38.0,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 10,
+      "title_progression_score": 10.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Principal Architect System Design Java Python Microservices Distributed Systems SQL Kafka Leadership Global Inventory..."
+    }
+  },
+  {
+    "candidate_id": "c016",
+    "personal": {
+      "full_name": "Karan Patel",
+      "display_photo_url": "/avatars/c016.png",
+      "current_title": "Product Manager",
+      "current_company": "Zomato",
+      "location": "Delhi, India",
+      "years_experience": 7.6
+    },
+    "education": [
+      {
+        "institution": "BITS Pilani",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2017
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Zomato",
+        "title": "Product Manager",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 91
+      }
+    ],
+    "skills": [
+      "TensorFlow",
+      "Kubernetes",
+      "JavaScript",
+      "React"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Product Manager Project",
+        "description": "Led the development of a scalable system utilizing TensorFlow and Kubernetes to improve performance by 20%.",
+        "technologies": [
+          "TensorFlow",
+          "Kubernetes",
+          "JavaScript"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 37.0,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 16,
+      "title_progression_score": 9.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Product Manager Zomato TensorFlow Kubernetes JavaScript..."
+    }
+  },
+  {
+    "candidate_id": "c017",
+    "personal": {
+      "full_name": "Rahul Patel",
+      "display_photo_url": "/avatars/c017.png",
+      "current_title": "Backend Developer",
+      "current_company": "Uber",
+      "location": "Chennai, India",
+      "years_experience": 6.5
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "M.S. Data Science",
+        "graduation_year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Uber",
+        "title": "Backend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 78
+      }
+    ],
+    "skills": [
+      "React",
+      "Microservices",
+      "Transformers",
+      "MLflow",
+      "GCP"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Backend Developer Project",
+        "description": "Led the development of a scalable system utilizing React and Microservices to improve performance by 20%.",
+        "technologies": [
+          "React",
+          "Microservices",
+          "Transformers"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 31.2,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 0,
+      "promotion_speed_months": 38,
+      "title_progression_score": 7.3
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Backend Developer Uber React Microservices Transformers..."
+    }
+  },
+  {
+    "candidate_id": "c018",
+    "personal": {
+      "full_name": "Priya Sharma",
+      "display_photo_url": "/avatars/c018.png",
+      "current_title": "DevOps Engineer",
+      "current_company": "Tech Mahindra",
+      "location": "Delhi, India",
+      "years_experience": 8.4
+    },
+    "education": [
+      {
+        "institution": "Delhi Technological University",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Tech Mahindra",
+        "title": "DevOps Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 100
+      }
+    ],
+    "skills": [
+      "PostgreSQL",
+      "Java",
+      "Kafka",
+      "SQL",
+      "Kubernetes",
+      "Microservices"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise DevOps Engineer Project",
+        "description": "Led the development of a scalable system utilizing PostgreSQL and Java to improve performance by 20%.",
+        "technologies": [
+          "PostgreSQL",
+          "Java",
+          "Kafka"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 36.1,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 25,
+      "title_progression_score": 7.4
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "DevOps Engineer Tech Mahindra PostgreSQL Java Kafka..."
+    }
+  },
+  {
+    "candidate_id": "c019",
+    "personal": {
+      "full_name": "Amit Kumar",
+      "display_photo_url": "/avatars/c019.png",
+      "current_title": "Engineering Manager",
+      "current_company": "Wipro",
+      "location": "Bengaluru, India",
+      "years_experience": 1.7
+    },
+    "education": [
+      {
+        "institution": "Manipal Institute of Technology",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2023
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Engineering Manager",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 20
+      }
+    ],
+    "skills": [
+      "Transformers",
+      "Airflow",
+      "Azure",
+      "Kafka"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Engineering Manager Project",
+        "description": "Led the development of a scalable system utilizing Transformers and Airflow to improve performance by 20%.",
+        "technologies": [
+          "Transformers",
+          "Airflow",
+          "Azure"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 28.8,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 34,
+      "title_progression_score": 6.2
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Engineering Manager Wipro Transformers Airflow Azure..."
+    }
+  },
+  {
+    "candidate_id": "c020",
+    "personal": {
+      "full_name": "Pooja Verma",
+      "display_photo_url": "/avatars/c020.png",
+      "current_title": "Data Analyst",
+      "current_company": "Amazon",
+      "location": "Pune, India",
+      "years_experience": 4.2
+    },
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2020
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Amazon",
+        "title": "Data Analyst",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 50
+      }
+    ],
+    "skills": [
+      "Computer Vision",
+      "Python",
+      "TensorFlow",
+      "TypeScript",
+      "Node.js",
+      "Airflow",
+      "MLOps",
+      "Distributed Systems"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Analyst Project",
+        "description": "Led the development of a scalable system utilizing Computer Vision and Python to improve performance by 20%.",
+        "technologies": [
+          "Computer Vision",
+          "Python",
+          "TensorFlow"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 11.3,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 0,
+      "promotion_speed_months": 31,
+      "title_progression_score": 9.3
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Analyst Amazon Computer Vision Python TensorFlow..."
+    }
+  },
+  {
+    "candidate_id": "c021",
+    "personal": {
+      "full_name": "Priya Kumar",
+      "display_photo_url": "/avatars/c021.png",
+      "current_title": "Frontend Developer",
+      "current_company": "Tech Mahindra",
+      "location": "Mumbai, India",
+      "years_experience": 13.2
+    },
+    "education": [
+      {
+        "institution": "Delhi Technological University",
+        "degree": "M.Tech Computer Science",
+        "graduation_year": 2011
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Tech Mahindra",
+        "title": "Frontend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 158
+      }
+    ],
+    "skills": [
+      "React",
+      "Spark",
+      "NLP",
+      "SQL"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Frontend Developer Project",
+        "description": "Led the development of a scalable system utilizing React and Spark to improve performance by 20%.",
+        "technologies": [
+          "React",
+          "Spark",
+          "NLP"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 27.7,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 0,
+      "promotion_speed_months": 23,
+      "title_progression_score": 7.7
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Frontend Developer Tech Mahindra React Spark NLP..."
+    }
+  },
+  {
+    "candidate_id": "c022",
+    "personal": {
+      "full_name": "Neha Gupta",
+      "display_photo_url": "/avatars/c022.png",
+      "current_title": "ML Engineer",
+      "current_company": "Amazon",
+      "location": "Hyderabad, India",
+      "years_experience": 12.8
+    },
+    "education": [
+      {
+        "institution": "VIT Vellore",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2012
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Amazon",
+        "title": "ML Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 153
+      }
+    ],
+    "skills": [
+      "Redis",
+      "GCP",
+      "C++",
+      "Java",
+      "TensorFlow"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise ML Engineer Project",
+        "description": "Led the development of a scalable system utilizing Redis and GCP to improve performance by 20%.",
+        "technologies": [
+          "Redis",
+          "GCP",
+          "C++"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 22.2,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 22,
+      "title_progression_score": 9.1
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "ML Engineer Amazon Redis GCP C++..."
+    }
+  },
+  {
+    "candidate_id": "c023",
+    "personal": {
+      "full_name": "Priya Gupta",
+      "display_photo_url": "/avatars/c023.png",
+      "current_title": "Data Scientist",
+      "current_company": "Uber",
+      "location": "Delhi, India",
+      "years_experience": 13.1
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech Electronics",
+        "graduation_year": 2011
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Uber",
+        "title": "Data Scientist",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 157
+      }
+    ],
+    "skills": [
+      "Docker",
+      "Transformers",
+      "GCP",
+      "Computer Vision",
+      "Spark"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Scientist Project",
+        "description": "Led the development of a scalable system utilizing Docker and Transformers to improve performance by 20%.",
+        "technologies": [
+          "Docker",
+          "Transformers",
+          "GCP"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 29.9,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 47,
+      "title_progression_score": 9.1
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Scientist Uber Docker Transformers GCP..."
+    }
+  },
+  {
+    "candidate_id": "c024",
+    "personal": {
+      "full_name": "Priya Kumar",
+      "display_photo_url": "/avatars/c024.png",
+      "current_title": "ML Engineer",
+      "current_company": "TCS",
+      "location": "Chennai, India",
+      "years_experience": 8.9
+    },
+    "education": [
+      {
+        "institution": "Manipal Institute of Technology",
+        "degree": "M.S. Data Science",
+        "graduation_year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "company": "TCS",
+        "title": "ML Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 106
+      }
+    ],
+    "skills": [
+      "Docker",
+      "FastAPI",
+      "MLOps",
+      "TypeScript",
+      "AWS",
+      "React",
+      "Kubernetes",
+      "JavaScript"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise ML Engineer Project",
+        "description": "Led the development of a scalable system utilizing Docker and FastAPI to improve performance by 20%.",
+        "technologies": [
+          "Docker",
+          "FastAPI",
+          "MLOps"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 18.2,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 46,
+      "title_progression_score": 5.7
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "ML Engineer TCS Docker FastAPI MLOps..."
+    }
+  },
+  {
+    "candidate_id": "c025",
+    "personal": {
+      "full_name": "Amit Iyer",
+      "display_photo_url": "/avatars/c025.png",
+      "current_title": "Data Analyst",
+      "current_company": "Capgemini",
+      "location": "Pune, India",
+      "years_experience": 11.1
+    },
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2013
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Capgemini",
+        "title": "Data Analyst",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 133
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "Kafka",
+      "Java",
+      "NLP"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Analyst Project",
+        "description": "Led the development of a scalable system utilizing JavaScript and Kafka to improve performance by 20%.",
+        "technologies": [
+          "JavaScript",
+          "Kafka",
+          "Java"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 36.1,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 17,
+      "title_progression_score": 4.9
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Analyst Capgemini JavaScript Kafka Java..."
+    }
+  },
+  {
+    "candidate_id": "c026",
+    "personal": {
+      "full_name": "Sneha Kumar",
+      "display_photo_url": "/avatars/c026.png",
+      "current_title": "Data Scientist",
+      "current_company": "Google",
+      "location": "Hyderabad, India",
+      "years_experience": 7.6
+    },
+    "education": [
+      {
+        "institution": "VIT Vellore",
+        "degree": "B.Tech Electronics",
+        "graduation_year": 2017
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Google",
+        "title": "Data Scientist",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 91
+      }
+    ],
+    "skills": [
+      "Python",
+      "FastAPI",
+      "C++",
+      "Kubernetes"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Scientist Project",
+        "description": "Led the development of a scalable system utilizing Python and FastAPI to improve performance by 20%.",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "C++"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 32.1,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 16,
+      "title_progression_score": 7.1
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Scientist Google Python FastAPI C++..."
+    }
+  },
+  {
+    "candidate_id": "c027",
+    "personal": {
+      "full_name": "Rahul Verma",
+      "display_photo_url": "/avatars/c027.png",
+      "current_title": "Software Engineer",
+      "current_company": "Accenture",
+      "location": "Mumbai, India",
+      "years_experience": 9.1
+    },
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "M.S. Data Science",
+        "graduation_year": 2015
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Accenture",
+        "title": "Software Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 109
+      }
+    ],
+    "skills": [
+      "C++",
+      "Node.js",
+      "Communication",
+      "GCP",
+      "AWS"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Software Engineer Project",
+        "description": "Led the development of a scalable system utilizing C++ and Node.js to improve performance by 20%.",
+        "technologies": [
+          "C++",
+          "Node.js",
+          "Communication"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 31.7,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 3,
+      "promotion_speed_months": 46,
+      "title_progression_score": 4.9
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Software Engineer Accenture C++ Node.js Communication..."
+    }
+  },
+  {
+    "candidate_id": "c028",
+    "personal": {
+      "full_name": "Sneha Iyer",
+      "display_photo_url": "/avatars/c028.png",
+      "current_title": "DevOps Engineer",
+      "current_company": "Flipkart",
+      "location": "Delhi, India",
+      "years_experience": 13.5
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "M.S. Data Science",
+        "graduation_year": 2011
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Flipkart",
+        "title": "DevOps Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 162
+      }
+    ],
+    "skills": [
+      "Kubernetes",
+      "React",
+      "Azure",
+      "PyTorch",
+      "GCP",
+      "Docker",
+      "SQL",
+      "PostgreSQL"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise DevOps Engineer Project",
+        "description": "Led the development of a scalable system utilizing Kubernetes and React to improve performance by 20%.",
+        "technologies": [
+          "Kubernetes",
+          "React",
+          "Azure"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 26.4,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 0,
+      "promotion_speed_months": 14,
+      "title_progression_score": 7.8
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "DevOps Engineer Flipkart Kubernetes React Azure..."
+    }
+  },
+  {
+    "candidate_id": "c029",
+    "personal": {
+      "full_name": "Neha Sharma",
+      "display_photo_url": "/avatars/c029.png",
+      "current_title": "Backend Developer",
+      "current_company": "Accenture",
+      "location": "Bengaluru, India",
+      "years_experience": 3.9
+    },
+    "education": [
+      {
+        "institution": "VIT Vellore",
+        "degree": "B.Tech Electronics",
+        "graduation_year": 2021
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Accenture",
+        "title": "Backend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 46
+      }
+    ],
+    "skills": [
+      "Transformers",
+      "GCP",
+      "Distributed Systems",
+      "Kubernetes",
+      "Leadership",
+      "Spark",
+      "PyTorch",
+      "TypeScript"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Backend Developer Project",
+        "description": "Led the development of a scalable system utilizing Transformers and GCP to improve performance by 20%.",
+        "technologies": [
+          "Transformers",
+          "GCP",
+          "Distributed Systems"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 33.8,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 0,
+      "promotion_speed_months": 24,
+      "title_progression_score": 6.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Backend Developer Accenture Transformers GCP Distributed Systems..."
+    }
+  },
+  {
+    "candidate_id": "c030",
+    "personal": {
+      "full_name": "Priya Kumar",
+      "display_photo_url": "/avatars/c030.png",
+      "current_title": "Data Scientist",
+      "current_company": "Google",
+      "location": "Mumbai, India",
+      "years_experience": 6.6
+    },
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "M.Tech Computer Science",
+        "graduation_year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Google",
+        "title": "Data Scientist",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 79
+      }
+    ],
+    "skills": [
+      "Go",
+      "MLOps",
+      "Communication",
+      "PostgreSQL",
+      "Docker",
+      "Spark",
+      "Distributed Systems",
+      "Redis"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Scientist Project",
+        "description": "Led the development of a scalable system utilizing Go and MLOps to improve performance by 20%.",
+        "technologies": [
+          "Go",
+          "MLOps",
+          "Communication"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 10.2,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 3,
+      "promotion_speed_months": 28,
+      "title_progression_score": 8.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Scientist Google Go MLOps Communication..."
+    }
+  },
+  {
+    "candidate_id": "c031",
+    "personal": {
+      "full_name": "Vikram Kumar",
+      "display_photo_url": "/avatars/c031.png",
+      "current_title": "Data Analyst",
+      "current_company": "IBM",
+      "location": "Pune, India",
+      "years_experience": 5.4
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2019
+      }
+    ],
+    "career_history": [
+      {
+        "company": "IBM",
+        "title": "Data Analyst",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 64
+      }
+    ],
+    "skills": [
+      "SQL",
+      "Python",
+      "Microservices",
+      "Kafka",
+      "Azure",
+      "FastAPI"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Analyst Project",
+        "description": "Led the development of a scalable system utilizing SQL and Python to improve performance by 20%.",
+        "technologies": [
+          "SQL",
+          "Python",
+          "Microservices"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 30.7,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 37,
+      "title_progression_score": 4.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Analyst IBM SQL Python Microservices..."
+    }
+  },
+  {
+    "candidate_id": "c032",
+    "personal": {
+      "full_name": "Neha Patel",
+      "display_photo_url": "/avatars/c032.png",
+      "current_title": "Frontend Developer",
+      "current_company": "Infosys",
+      "location": "Bengaluru, India",
+      "years_experience": 8.5
+    },
+    "education": [
+      {
+        "institution": "IIT Kanpur",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Infosys",
+        "title": "Frontend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 102
+      }
+    ],
+    "skills": [
+      "Java",
+      "Kafka",
+      "Redis",
+      "TensorFlow",
+      "SQL",
+      "GCP",
+      "Kubernetes",
+      "TypeScript"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Frontend Developer Project",
+        "description": "Led the development of a scalable system utilizing Java and Kafka to improve performance by 20%.",
+        "technologies": [
+          "Java",
+          "Kafka",
+          "Redis"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 22.2,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 0,
+      "promotion_speed_months": 27,
+      "title_progression_score": 6.3
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Frontend Developer Infosys Java Kafka Redis..."
+    }
+  },
+  {
+    "candidate_id": "c033",
+    "personal": {
+      "full_name": "Karan Sharma",
+      "display_photo_url": "/avatars/c033.png",
+      "current_title": "Data Analyst",
+      "current_company": "Cognizant",
+      "location": "Delhi, India",
+      "years_experience": 9.5
+    },
+    "education": [
+      {
+        "institution": "IIT Kanpur",
+        "degree": "M.S. Data Science",
+        "graduation_year": 2015
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Cognizant",
+        "title": "Data Analyst",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 114
+      }
+    ],
+    "skills": [
+      "Go",
+      "AWS",
+      "PyTorch",
+      "Communication",
+      "TensorFlow",
+      "Distributed Systems",
+      "Computer Vision"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Analyst Project",
+        "description": "Led the development of a scalable system utilizing Go and AWS to improve performance by 20%.",
+        "technologies": [
+          "Go",
+          "AWS",
+          "PyTorch"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 35.1,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 38,
+      "title_progression_score": 5.4
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Analyst Cognizant Go AWS PyTorch..."
+    }
+  },
+  {
+    "candidate_id": "c034",
+    "personal": {
+      "full_name": "Priya Kumar",
+      "display_photo_url": "/avatars/c034.png",
+      "current_title": "ML Engineer",
+      "current_company": "Uber",
+      "location": "Pune, India",
+      "years_experience": 4.8
+    },
+    "education": [
+      {
+        "institution": "BITS Pilani",
+        "degree": "M.S. Data Science",
+        "graduation_year": 2020
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Uber",
+        "title": "ML Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 57
+      }
+    ],
+    "skills": [
+      "Python",
+      "Distributed Systems",
+      "SQL",
+      "React",
+      "MLOps",
+      "Airflow"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise ML Engineer Project",
+        "description": "Led the development of a scalable system utilizing Python and Distributed Systems to improve performance by 20%.",
+        "technologies": [
+          "Python",
+          "Distributed Systems",
+          "SQL"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 13.6,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 32,
+      "title_progression_score": 9.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "ML Engineer Uber Python Distributed Systems SQL..."
+    }
+  },
+  {
+    "candidate_id": "c035",
+    "personal": {
+      "full_name": "Karan Gupta",
+      "display_photo_url": "/avatars/c035.png",
+      "current_title": "ML Engineer",
+      "current_company": "Google",
+      "location": "Bengaluru, India",
+      "years_experience": 3.2
+    },
+    "education": [
+      {
+        "institution": "IIT Madras",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2021
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Google",
+        "title": "ML Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 38
+      }
+    ],
+    "skills": [
+      "Distributed Systems",
+      "C++",
+      "Leadership",
+      "Java",
+      "TensorFlow"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise ML Engineer Project",
+        "description": "Led the development of a scalable system utilizing Distributed Systems and C++ to improve performance by 20%.",
+        "technologies": [
+          "Distributed Systems",
+          "C++",
+          "Leadership"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 32.0,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 18,
+      "title_progression_score": 9.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "ML Engineer Google Distributed Systems C++ Leadership..."
+    }
+  },
+  {
+    "candidate_id": "c036",
+    "personal": {
+      "full_name": "Vikram Gupta",
+      "display_photo_url": "/avatars/c036.png",
+      "current_title": "Data Scientist",
+      "current_company": "Google",
+      "location": "Mumbai, India",
+      "years_experience": 12.9
+    },
+    "education": [
+      {
+        "institution": "Manipal Institute of Technology",
+        "degree": "B.Tech Electronics",
+        "graduation_year": 2012
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Google",
+        "title": "Data Scientist",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 154
+      }
+    ],
+    "skills": [
+      "Redis",
+      "System Design",
+      "Java",
+      "TensorFlow",
+      "Spark",
+      "PyTorch"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Scientist Project",
+        "description": "Led the development of a scalable system utilizing Redis and System Design to improve performance by 20%.",
+        "technologies": [
+          "Redis",
+          "System Design",
+          "Java"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 28.3,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 37,
+      "title_progression_score": 6.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Scientist Google Redis System Design Java..."
+    }
+  },
+  {
+    "candidate_id": "c037",
+    "personal": {
+      "full_name": "Amit Gupta",
+      "display_photo_url": "/avatars/c037.png",
+      "current_title": "ML Engineer",
+      "current_company": "Accenture",
+      "location": "Gurugram, India",
+      "years_experience": 1.8
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2023
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Accenture",
+        "title": "ML Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 21
+      }
+    ],
+    "skills": [
+      "Java",
+      "Kubernetes",
+      "MLflow",
+      "Leadership",
+      "GCP",
+      "Airflow",
+      "System Design"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise ML Engineer Project",
+        "description": "Led the development of a scalable system utilizing Java and Kubernetes to improve performance by 20%.",
+        "technologies": [
+          "Java",
+          "Kubernetes",
+          "MLflow"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 13.8,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 33,
+      "title_progression_score": 6.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "ML Engineer Accenture Java Kubernetes MLflow..."
+    }
+  },
+  {
+    "candidate_id": "c038",
+    "personal": {
+      "full_name": "Pooja Das",
+      "display_photo_url": "/avatars/c038.png",
+      "current_title": "Frontend Developer",
+      "current_company": "Wipro",
+      "location": "Noida, India",
+      "years_experience": 1.8
+    },
+    "education": [
+      {
+        "institution": "IIIT Hyderabad",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2023
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Frontend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 21
+      }
+    ],
+    "skills": [
+      "Docker",
+      "MLOps",
+      "Redis",
+      "Node.js"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Frontend Developer Project",
+        "description": "Led the development of a scalable system utilizing Docker and MLOps to improve performance by 20%.",
+        "technologies": [
+          "Docker",
+          "MLOps",
+          "Redis"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 23.6,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 3,
+      "promotion_speed_months": 14,
+      "title_progression_score": 5.2
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Frontend Developer Wipro Docker MLOps Redis..."
+    }
+  },
+  {
+    "candidate_id": "c039",
+    "personal": {
+      "full_name": "Amit Verma",
+      "display_photo_url": "/avatars/c039.png",
+      "current_title": "Backend Developer",
+      "current_company": "Cognizant",
+      "location": "Hyderabad, India",
+      "years_experience": 3.3
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "M.Tech Computer Science",
+        "graduation_year": 2021
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Cognizant",
+        "title": "Backend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 39
+      }
+    ],
+    "skills": [
+      "Computer Vision",
+      "Kafka",
+      "Airflow",
+      "Redis",
+      "Go",
+      "TypeScript",
+      "System Design"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Backend Developer Project",
+        "description": "Led the development of a scalable system utilizing Computer Vision and Kafka to improve performance by 20%.",
+        "technologies": [
+          "Computer Vision",
+          "Kafka",
+          "Airflow"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 10.3,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 0,
+      "promotion_speed_months": 12,
+      "title_progression_score": 7.6
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Backend Developer Cognizant Computer Vision Kafka Airflow..."
+    }
+  },
+  {
+    "candidate_id": "c040",
+    "personal": {
+      "full_name": "Neha Patel",
+      "display_photo_url": "/avatars/c040.png",
+      "current_title": "Product Manager",
+      "current_company": "Wipro",
+      "location": "Chennai, India",
+      "years_experience": 9.7
+    },
+    "education": [
+      {
+        "institution": "Delhi Technological University",
+        "degree": "B.Tech Electronics",
+        "graduation_year": 2015
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Product Manager",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 116
+      }
+    ],
+    "skills": [
+      "AWS",
+      "SQL",
+      "Transformers",
+      "PyTorch"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Product Manager Project",
+        "description": "Led the development of a scalable system utilizing AWS and SQL to improve performance by 20%.",
+        "technologies": [
+          "AWS",
+          "SQL",
+          "Transformers"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 18.1,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 3,
+      "promotion_speed_months": 16,
+      "title_progression_score": 4.3
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Product Manager Wipro AWS SQL Transformers..."
+    }
+  },
+  {
+    "candidate_id": "c041",
+    "personal": {
+      "full_name": "Neha Gupta",
+      "display_photo_url": "/avatars/c041.png",
+      "current_title": "Data Scientist",
+      "current_company": "HCL",
+      "location": "Hyderabad, India",
+      "years_experience": 8.5
+    },
+    "education": [
+      {
+        "institution": "IIIT Hyderabad",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "company": "HCL",
+        "title": "Data Scientist",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 102
+      }
+    ],
+    "skills": [
+      "Kafka",
+      "Transformers",
+      "System Design",
+      "PyTorch",
+      "Kubernetes"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Scientist Project",
+        "description": "Led the development of a scalable system utilizing Kafka and Transformers to improve performance by 20%.",
+        "technologies": [
+          "Kafka",
+          "Transformers",
+          "System Design"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 34.2,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 13,
+      "title_progression_score": 5.3
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Scientist HCL Kafka Transformers System Design..."
+    }
+  },
+  {
+    "candidate_id": "c042",
+    "personal": {
+      "full_name": "Karan Patel",
+      "display_photo_url": "/avatars/c042.png",
+      "current_title": "DevOps Engineer",
+      "current_company": "Uber",
+      "location": "Mumbai, India",
+      "years_experience": 1.4
+    },
+    "education": [
+      {
+        "institution": "Manipal Institute of Technology",
+        "degree": "B.Tech Electronics",
+        "graduation_year": 2023
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Uber",
+        "title": "DevOps Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 16
+      }
+    ],
+    "skills": [
+      "GCP",
+      "AWS",
+      "Kubernetes",
+      "Communication",
+      "PyTorch",
+      "TensorFlow"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise DevOps Engineer Project",
+        "description": "Led the development of a scalable system utilizing GCP and AWS to improve performance by 20%.",
+        "technologies": [
+          "GCP",
+          "AWS",
+          "Kubernetes"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 12.0,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 3,
+      "promotion_speed_months": 38,
+      "title_progression_score": 6.5
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "DevOps Engineer Uber GCP AWS Kubernetes..."
+    }
+  },
+  {
+    "candidate_id": "c043",
+    "personal": {
+      "full_name": "Rohan Nair",
+      "display_photo_url": "/avatars/c043.png",
+      "current_title": "Data Analyst",
+      "current_company": "Google",
+      "location": "Hyderabad, India",
+      "years_experience": 8.7
+    },
+    "education": [
+      {
+        "institution": "IIT Madras",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Google",
+        "title": "Data Analyst",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 104
+      }
+    ],
+    "skills": [
+      "Node.js",
+      "Java",
+      "JavaScript",
+      "C++",
+      "Kafka",
+      "React",
+      "Docker"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Analyst Project",
+        "description": "Led the development of a scalable system utilizing Node.js and Java to improve performance by 20%.",
+        "technologies": [
+          "Node.js",
+          "Java",
+          "JavaScript"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 15.5,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 31,
+      "title_progression_score": 4.6
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Analyst Google Node.js Java JavaScript..."
+    }
+  },
+  {
+    "candidate_id": "c044",
+    "personal": {
+      "full_name": "Amit Nair",
+      "display_photo_url": "/avatars/c044.png",
+      "current_title": "Backend Developer",
+      "current_company": "Capgemini",
+      "location": "Pune, India",
+      "years_experience": 2.5
+    },
+    "education": [
+      {
+        "institution": "IIT Madras",
+        "degree": "B.Tech Electronics",
+        "graduation_year": 2022
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Capgemini",
+        "title": "Backend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 30
+      }
+    ],
+    "skills": [
+      "GCP",
+      "JavaScript",
+      "Kafka",
+      "Docker",
+      "Microservices",
+      "NLP"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Backend Developer Project",
+        "description": "Led the development of a scalable system utilizing GCP and JavaScript to improve performance by 20%.",
+        "technologies": [
+          "GCP",
+          "JavaScript",
+          "Kafka"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 27.9,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 42,
+      "title_progression_score": 6.6
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Backend Developer Capgemini GCP JavaScript Kafka..."
+    }
+  },
+  {
+    "candidate_id": "c045",
+    "personal": {
+      "full_name": "Vikram Verma",
+      "display_photo_url": "/avatars/c045.png",
+      "current_title": "Backend Developer",
+      "current_company": "Cognizant",
+      "location": "Gurugram, India",
+      "years_experience": 2.4
+    },
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2022
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Cognizant",
+        "title": "Backend Developer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 28
+      }
+    ],
+    "skills": [
+      "Redis",
+      "Kubernetes",
+      "Go",
+      "Node.js",
+      "PostgreSQL",
+      "NLP",
+      "SQL",
+      "TensorFlow"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Backend Developer Project",
+        "description": "Led the development of a scalable system utilizing Redis and Kubernetes to improve performance by 20%.",
+        "technologies": [
+          "Redis",
+          "Kubernetes",
+          "Go"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 15.3,
+      "num_companies_total": 3,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 14,
+      "title_progression_score": 7.2
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Backend Developer Cognizant Redis Kubernetes Go..."
+    }
+  },
+  {
+    "candidate_id": "c046",
+    "personal": {
+      "full_name": "Neha Nair",
+      "display_photo_url": "/avatars/c046.png",
+      "current_title": "Data Scientist",
+      "current_company": "Wipro",
+      "location": "Noida, India",
+      "years_experience": 6.0
+    },
+    "education": [
+      {
+        "institution": "BITS Pilani",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Wipro",
+        "title": "Data Scientist",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 72
+      }
+    ],
+    "skills": [
+      "Docker",
+      "SQL",
+      "TensorFlow",
+      "Transformers",
+      "TypeScript",
+      "Airflow",
+      "Go"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Scientist Project",
+        "description": "Led the development of a scalable system utilizing Docker and SQL to improve performance by 20%.",
+        "technologies": [
+          "Docker",
+          "SQL",
+          "TensorFlow"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 24.9,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 26,
+      "title_progression_score": 4.2
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Scientist Wipro Docker SQL TensorFlow..."
+    }
+  },
+  {
+    "candidate_id": "c047",
+    "personal": {
+      "full_name": "Anjali Singh",
+      "display_photo_url": "/avatars/c047.png",
+      "current_title": "ML Engineer",
+      "current_company": "Swiggy",
+      "location": "Pune, India",
+      "years_experience": 10.0
+    },
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech Computer Science",
+        "graduation_year": 2014
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Swiggy",
+        "title": "ML Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 120
+      }
+    ],
+    "skills": [
+      "TensorFlow",
+      "PostgreSQL",
+      "Transformers",
+      "Java",
+      "Communication",
+      "JavaScript",
+      "PyTorch",
+      "AWS"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise ML Engineer Project",
+        "description": "Led the development of a scalable system utilizing TensorFlow and PostgreSQL to improve performance by 20%.",
+        "technologies": [
+          "TensorFlow",
+          "PostgreSQL",
+          "Transformers"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 35.7,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 2,
+      "promotion_speed_months": 25,
+      "title_progression_score": 5.0
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "ML Engineer Swiggy TensorFlow PostgreSQL Transformers..."
+    }
+  },
+  {
+    "candidate_id": "c048",
+    "personal": {
+      "full_name": "Rahul Gupta",
+      "display_photo_url": "/avatars/c048.png",
+      "current_title": "Product Manager",
+      "current_company": "Accenture",
+      "location": "Mumbai, India",
+      "years_experience": 2.0
+    },
+    "education": [
+      {
+        "institution": "IIT Delhi",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2022
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Accenture",
+        "title": "Product Manager",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 24
+      }
+    ],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "GCP",
+      "Leadership",
+      "Distributed Systems",
+      "Azure",
+      "Microservices"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Product Manager Project",
+        "description": "Led the development of a scalable system utilizing Python and JavaScript to improve performance by 20%.",
+        "technologies": [
+          "Python",
+          "JavaScript",
+          "GCP"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 28.7,
+      "num_companies_total": 1,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 16,
+      "title_progression_score": 9.2
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Product Manager Accenture Python JavaScript GCP..."
+    }
+  },
+  {
+    "candidate_id": "c049",
+    "personal": {
+      "full_name": "Neha Kumar",
+      "display_photo_url": "/avatars/c049.png",
+      "current_title": "Software Engineer",
+      "current_company": "Google",
+      "location": "Noida, India",
+      "years_experience": 5.2
+    },
+    "education": [
+      {
+        "institution": "Manipal Institute of Technology",
+        "degree": "B.E. Information Technology",
+        "graduation_year": 2019
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Google",
+        "title": "Software Engineer",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 62
+      }
+    ],
+    "skills": [
+      "FastAPI",
+      "Communication",
+      "Transformers",
+      "Redis",
+      "C++",
+      "System Design"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Software Engineer Project",
+        "description": "Led the development of a scalable system utilizing FastAPI and Communication to improve performance by 20%.",
+        "technologies": [
+          "FastAPI",
+          "Communication",
+          "Transformers"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 13.5,
+      "num_companies_total": 2,
+      "num_companies_last_3yr": 3,
+      "promotion_speed_months": 16,
+      "title_progression_score": 9.4
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Software Engineer Google FastAPI Communication Transformers..."
+    }
+  },
+  {
+    "candidate_id": "c050",
+    "personal": {
+      "full_name": "Neha Sharma",
+      "display_photo_url": "/avatars/c050.png",
+      "current_title": "Data Scientist",
+      "current_company": "Tech Mahindra",
+      "location": "Gurugram, India",
+      "years_experience": 13.3
+    },
+    "education": [
+      {
+        "institution": "NIT Trichy",
+        "degree": "M.Tech Computer Science",
+        "graduation_year": 2011
+      }
+    ],
+    "career_history": [
+      {
+        "company": "Tech Mahindra",
+        "title": "Data Scientist",
+        "start_month": "2020-01",
+        "end_month": null,
+        "tenure_months": 159
+      }
+    ],
+    "skills": [
+      "Microservices",
+      "Node.js",
+      "Kafka",
+      "Distributed Systems",
+      "PostgreSQL",
+      "Computer Vision",
+      "Docker"
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Data Scientist Project",
+        "description": "Led the development of a scalable system utilizing Microservices and Node.js to improve performance by 20%.",
+        "technologies": [
+          "Microservices",
+          "Node.js",
+          "Kafka"
+        ]
+      }
+    ],
+    "behavioral_metadata": {
+      "avg_tenure_months": 25.5,
+      "num_companies_total": 4,
+      "num_companies_last_3yr": 1,
+      "promotion_speed_months": 42,
+      "title_progression_score": 8.8
+    },
+    "computed_at_seed": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "embedded_text_preview": "Data Scientist Tech Mahindra Microservices Node.js Kafka..."
+    }
+  }
+]

@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+dist/
+build/
+.DS_Store
+.chroma/
+*.log
+backend/.venv/
+frontend/node_modules/
