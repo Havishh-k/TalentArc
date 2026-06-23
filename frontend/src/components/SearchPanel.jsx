@@ -12,7 +12,7 @@ export function SearchPanel({ searchState, onSearchStateChange, onSearch, loadin
   const handleTopNChange = (top_n) => onSearchStateChange({ ...searchState, top_n });
   const handleBlindModeChange = (blind_mode) => onSearchStateChange({ ...searchState, blind_mode });
 
-  const sum = searchState.weights.semantic + searchState.weights.career + searchState.weights.velocity;
+  const sum = searchState.weights.semantic + searchState.weights.career + searchState.weights.velocity + (searchState.weights.github_velocity || 0);
   const isWeightsValid = sum === 100;
   const jdLength = searchState.job_description.trim().length;
 
