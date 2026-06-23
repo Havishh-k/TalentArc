@@ -11,6 +11,7 @@ function App() {
       semantic: 50,
       career: 30,
       velocity: 20,
+      github_velocity: 0,
     },
     top_n: 10,
     blind_mode: false,
@@ -25,6 +26,7 @@ function App() {
         semantic: searchState.weights.semantic / 100,
         career: searchState.weights.career / 100,
         velocity: searchState.weights.velocity / 100,
+        github_velocity: (searchState.weights.github_velocity || 0) / 100,
       },
       top_n: searchState.top_n,
       blind_mode: searchState.blind_mode,
@@ -61,6 +63,7 @@ function App() {
           jdSkills={results?.jd_skills_extracted}
           totalScanned={results?.total_candidates_scanned}
           latencyMs={results?.latency_ms}
+          poolDensity={results?.pool_density_percentage}
           loading={loading}
         />
       </div>

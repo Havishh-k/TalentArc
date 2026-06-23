@@ -92,7 +92,7 @@ def seed_candidates():
 async def search_candidates(request: SearchRequest):
     """Run the full search pipeline."""
     # Validate weights sum to 1.0
-    weight_sum = request.weights.semantic + request.weights.career + request.weights.velocity
+    weight_sum = request.weights.semantic + request.weights.career + request.weights.velocity + request.weights.github_velocity
     if abs(weight_sum - 1.0) > 0.01:
         raise HTTPException(status_code=422, detail="weights must sum to 1.0")
 
@@ -113,7 +113,8 @@ async def search_candidates(request: SearchRequest):
     weights_dict = {
         "semantic": request.weights.semantic,
         "career": request.weights.career,
-        "velocity": request.weights.velocity
+        "velocity": request.weights.velocity,
+        "github_velocity": request.weights.github_velocity
     }
     
     try:
@@ -127,6 +128,26 @@ async def search_candidates(request: SearchRequest):
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Search pipeline failed: {str(e)}")
+
+
+from app.models.request_models import CloneRequest
+
+@router.post("/candidates/clone", response_model=SearchResponse)
+async def clone_candidate_endpoint(request: CloneRequest):
+    collection = get_collection()
+    if collection.count() == 0:
+        raise HTTPException(status_code=503, detail="vector store unavailable")
+        
+    all_candidates = _load_mock_candidates()
+    try:
+        from app.services.search_service import clone_candidate
+        return await clone_candidate(
+            target_candidate_id=request.target_candidate_id,
+            top_n=request.top_n,
+            all_candidates=all_candidates
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Clone pipeline failed: {str(e)}")
 
 
 # ── POST /api/import ──────────────────────────────────────────────────────────

@@ -5,6 +5,7 @@ import pandas as pd
 import json
 import os
 import hashlib
+import re
 from fastapi import HTTPException
 
 from app.services.embedding_service import build_embed_text, embed_batch
@@ -22,6 +23,7 @@ REQUIRED_COLUMNS = {
 }
 
 OPTIONAL_COLUMNS_DEFAULTS = {
+    "github_handle": "",
     "location": "India",
     "institution": "N/A",
     "graduation_year": None,
@@ -77,6 +79,32 @@ def parse_upload_file(file_bytes: bytes, filename: str) -> pd.DataFrame:
     return df
 
 
+def sanitize_profile_prose(text: str) -> str:
+    """Redacts PII such as phone numbers, emails, and physical addresses."""
+    if not text:
+        return ""
+    # Naive phone number format
+    text = re.sub(r'\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}', '[REDACTED_CONTACT]', text)
+    # Email addresses
+    text = re.sub(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+', '[REDACTED_CONTACT]', text)
+    # Basic physical address structures (starts with numbers, contains street/ave/blvd)
+    text = re.sub(r'\b\d+\s+[a-zA-Z\s]+(?:street|st|avenue|ave|boulevard|blvd|road|rd|lane|ln)\b', '[REDACTED_CONTACT]', text, flags=re.IGNORECASE)
+    return text
+
+
+def _fetch_github_metrics(candidate_id: str, handle: str) -> float:
+    """
+    Simulated GitHub open-source signal scraper.
+    Uses a deterministic mock generator based on candidate_id/handle to prevent scores from jumping.
+    """
+    if not handle or handle.lower() == "n/a":
+        return 0.0
+    seed_str = f"{candidate_id}_{handle.lower()}"
+    hash_val = int(hashlib.md5(seed_str.encode()).hexdigest(), 16)
+    # Map hash_val to a float between 0 and 100 deterministically
+    return float(hash_val % 100)
+
+
 def validate_columns(df: pd.DataFrame) -> None:
     """Raises HTTPException 422 if any required column is absent."""
     present = set(df.columns)
@@ -125,14 +153,17 @@ def map_row_to_candidate(row: pd.Series, row_index: int) -> tuple[dict | None, d
     skills = [s.strip() for s in raw_skills.split(",") if s.strip()]
     if not skills:
         return None, {"row": row_index, "candidate_id": candidate_id, "reason": "skills field is empty or unparseable"}
+        
+    skills = [sanitize_profile_prose(s) for s in skills]
 
     projects = []
     for i in (1, 2):
         title = get(f"project_{i}_title")
         desc = get(f"project_{i}_description", "")
         if title:
+            desc = sanitize_profile_prose(desc)
             techs_raw = get(f"project_{i}_technologies", "")
-            techs = [t.strip() for t in techs_raw.split(",") if t.strip()]
+            techs = [sanitize_profile_prose(t.strip()) for t in techs_raw.split(",") if t.strip()]
             projects.append({"title": title, "description": desc, "technologies": techs})
             
     if not projects:
@@ -148,6 +179,9 @@ def map_row_to_candidate(row: pd.Series, row_index: int) -> tuple[dict | None, d
     except (ValueError, TypeError) as e:
         return None, {"row": row_index, "candidate_id": candidate_id, "reason": f"Numeric field parse error: {str(e)}"}
 
+    github_handle = get("github_handle", OPTIONAL_COLUMNS_DEFAULTS["github_handle"])
+    github_velocity = _fetch_github_metrics(candidate_id, github_handle)
+
     candidate = {
         "candidate_id": candidate_id,
         "personal": {
@@ -157,6 +191,7 @@ def map_row_to_candidate(row: pd.Series, row_index: int) -> tuple[dict | None, d
             "current_company": get("current_company", "Unknown"),
             "location": get("location", OPTIONAL_COLUMNS_DEFAULTS["location"]),
             "years_experience": years_exp,
+            "github_handle": github_handle,
         },
         "education": [{
             "institution": get("institution", OPTIONAL_COLUMNS_DEFAULTS["institution"]),
@@ -171,6 +206,7 @@ def map_row_to_candidate(row: pd.Series, row_index: int) -> tuple[dict | None, d
             "num_companies_last_3yr": num_cos_3yr,
             "promotion_speed_months": promo_speed,
             "title_progression_score": title_prog,
+            "github_velocity_index": github_velocity,
         }
     }
     return candidate, None

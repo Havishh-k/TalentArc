@@ -21,12 +21,23 @@ function SliderRow({ label, value, onChange, colorClass }) {
 }
 
 export function ScoringSliders({ weights, onChange }) {
-  const sum = weights.semantic + weights.career + weights.velocity;
+  const sum = weights.semantic + weights.career + weights.velocity + (weights.github_velocity || 0);
   const isTargetSum = sum === 100;
 
   const handleSemanticChange = (val) => onChange({ ...weights, semantic: val });
   const handleCareerChange = (val) => onChange({ ...weights, career: val });
   const handleVelocityChange = (val) => onChange({ ...weights, velocity: val });
+  const handleGithubChange = (val) => onChange({ ...weights, github_velocity: val });
+
+  const applyPreset = (preset) => {
+    onChange(preset);
+  };
+
+  const presets = [
+    { label: "Eng Manager", weights: { semantic: 40, career: 30, velocity: 10, github_velocity: 20 } },
+    { label: "Talent Partner", weights: { semantic: 60, career: 20, velocity: 10, github_velocity: 10 } },
+    { label: "Founder", weights: { semantic: 20, career: 20, velocity: 40, github_velocity: 20 } },
+  ];
 
   return (
     <div>
@@ -36,9 +47,22 @@ export function ScoringSliders({ weights, onChange }) {
         <div className="h-px bg-surface-border flex-1" />
       </div>
 
+      <div className="flex gap-2 mb-4 justify-between">
+        {presets.map((p, idx) => (
+          <button 
+            key={idx} 
+            onClick={() => applyPreset(p.weights)}
+            className="text-xs bg-surface-panel border border-surface-border px-2 py-1.5 rounded-md hover:bg-surface-elevated text-text-secondary transition-colors"
+          >
+            {p.label}
+          </button>
+        ))}
+      </div>
+
       <SliderRow label="Semantic Fit" value={weights.semantic} onChange={handleSemanticChange} colorClass="text-score-semantic" />
       <SliderRow label="Career Metadata" value={weights.career} onChange={handleCareerChange} colorClass="text-score-career" />
       <SliderRow label="Behavioral Velocity" value={weights.velocity} onChange={handleVelocityChange} colorClass="text-score-velocity" />
+      <SliderRow label="GitHub Open-Source" value={weights.github_velocity || 0} onChange={handleGithubChange} colorClass="text-brand-glow" />
 
       <div className={`mt-1 text-right font-mono text-xs ${isTargetSum ? 'text-state-success' : 'text-state-error'}`}>
         Total: {sum}% {isTargetSum ? '✓' : '✗'}

@@ -6,6 +6,7 @@ class ScoreBreakdown(BaseModel):
     semantic_score: float
     career_score: float
     velocity_score: float
+    github_velocity_score: float = 0.0
 
 
 class RetentionRisk(BaseModel):
@@ -38,6 +39,7 @@ class SearchResponse(BaseModel):
     search_id: str
     jd_skills_extracted: list[str]
     total_candidates_scanned: int
+    pool_density_percentage: float = 100.0
     results: list[CandidateResult]
     latency_ms: int
 

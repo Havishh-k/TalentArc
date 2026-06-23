@@ -67,8 +67,42 @@ async def extract_jd_skills(jd_text: str) -> list[str]:
         extracted = [s for s in known_skills if s.lower() in jd_lower]
         return extracted[:8]
 
+import hashlib
+
+CACHE_FILE = "./app/data/llm_cache.json"
+_LLM_CACHE = None
+
+def _get_cache():
+    global _LLM_CACHE
+    if _LLM_CACHE is None:
+        if os.path.exists(CACHE_FILE):
+            try:
+                with open(CACHE_FILE, "r") as f:
+                    _LLM_CACHE = json.load(f)
+            except Exception:
+                _LLM_CACHE = {}
+        else:
+            _LLM_CACHE = {}
+    return _LLM_CACHE
+
+def _save_cache():
+    global _LLM_CACHE
+    if _LLM_CACHE is not None:
+        os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+        with open(CACHE_FILE, "w") as f:
+            json.dump(_LLM_CACHE, f, indent=2)
+
+def _get_cache_key(candidate_id: str, jd_summary: str) -> str:
+    seed_str = f"{candidate_id}_{jd_summary}"
+    return hashlib.md5(seed_str.encode()).hexdigest()
+
 async def generate_justification(candidate: dict, jd_summary: str, scores: dict, rank: int, blind_mode: bool) -> str:
-    """Generate 2-sentence justification with fallback on timeout/auth error."""
+    """Generate 2-sentence justification with deterministic local cache and fallback on timeout/auth error."""
+    cache_key = _get_cache_key(candidate["candidate_id"], jd_summary[:300])
+    cache = _get_cache()
+    if cache_key in cache:
+        return cache[cache_key]
+
     prompt = JUSTIFICATION_PROMPT.format(
         rank=rank,
         jd_summary=jd_summary[:300],
@@ -93,7 +127,10 @@ async def generate_justification(candidate: dict, jd_summary: str, scores: dict,
             ),
             timeout=3.0
         )
-        return message.content[0].text.strip()
+        justification = message.content[0].text.strip()
+        cache[cache_key] = justification
+        _save_cache()
+        return justification
     except Exception as e:
         print(f"[LLM Fallback] generate_justification failed for candidate {candidate['candidate_id']}: {e}")
         # Fallback template string

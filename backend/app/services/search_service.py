@@ -95,13 +95,19 @@ async def orchestrate_search(
         # Career and velocity scores
         career_score = compute_career_score(candidate)
         velocity_score = compute_velocity_score(candidate)
+        
+        # GitHub velocity and handle check
+        github_velocity_score = candidate["behavioral_metadata"].get("github_velocity_index", 0.0)
+        has_github_handle = bool(candidate["personal"].get("github_handle"))
 
         # Composite score
         composite = compute_composite(
             semantic_score,
             career_score,
             velocity_score,
+            github_velocity_score,
             weights,
+            has_github_handle,
         )
 
         # Retention risk
@@ -114,6 +120,7 @@ async def orchestrate_search(
             "semantic": semantic_score,
             "career": career_score,
             "velocity": velocity_score,
+            "github_velocity": github_velocity_score,
             "composite": composite
         }
 
@@ -136,6 +143,7 @@ async def orchestrate_search(
                 "semantic_score": semantic_score,
                 "career_score": career_score,
                 "velocity_score": velocity_score,
+                "github_velocity_score": github_velocity_score,
             },
             "justification": "", # Placeholder, will be filled
             "retention_risk": retention,
@@ -179,10 +187,14 @@ async def orchestrate_search(
 
     latency_ms = int((time.time() - start_time) * 1000)
 
+    from app.services.radar_service import evaluate_pool_density
+    pool_density_percentage = evaluate_pool_density(results)
+
     return {
         "search_id": search_id,
         "jd_skills_extracted": jd_skills_extracted,
         "total_candidates_scanned": collection.count(),
+        "pool_density_percentage": pool_density_percentage,
         "results": results,
         "latency_ms": latency_ms,
     }
@@ -207,3 +219,125 @@ def _extract_jd_skills_heuristic(jd_text: str) -> list[str]:
     jd_lower = jd_text.lower()
     extracted = [s for s in known_skills if s.lower() in jd_lower]
     return extracted[:8]  # Cap at 8 per TRD spec
+
+
+async def clone_candidate(
+    target_candidate_id: str,
+    top_n: int,
+    all_candidates: list[dict],
+) -> dict:
+    """Clones a candidate by querying ChromaDB with their pre-computed vector."""
+    start_time = time.time()
+    search_id = str(uuid.uuid4())
+
+    collection = get_collection()
+    
+    # Fetch target candidate vector
+    target_data = collection.get(
+        ids=[target_candidate_id],
+        include=["embeddings", "documents"]
+    )
+    if not target_data or not target_data["ids"]:
+        raise ValueError(f"Candidate {target_candidate_id} not found in vector database.")
+        
+    target_embedding = target_data["embeddings"][0]
+    target_doc = target_data["documents"][0]
+    
+    chroma_results = collection.query(
+        query_embeddings=[target_embedding],
+        n_results=top_n + 1,  # +1 because the candidate themselves will be #1
+        include=["documents", "metadatas", "distances"],
+    )
+
+    candidate_ids = chroma_results["ids"][0]
+    distances = chroma_results["distances"][0]
+
+    jd_skills_extracted = await extract_jd_skills(target_doc[:1000])
+
+    # Default balanced weights for cloning
+    weights = {"semantic": 0.5, "career": 0.3, "velocity": 0.2, "github_velocity": 0.0}
+    blind_mode = False
+
+    results_pre_justification = []
+    justification_tasks = []
+    
+    for i, cid in enumerate(candidate_ids):
+        if cid == target_candidate_id:
+            continue  # skip the cloned candidate
+            
+        candidate = _load_candidate_by_id(cid, all_candidates)
+        if candidate is None:
+            continue
+
+        semantic_score = distance_to_score(distances[i])
+        career_score = compute_career_score(candidate)
+        velocity_score = compute_velocity_score(candidate)
+        
+        github_velocity_score = candidate["behavioral_metadata"].get("github_velocity_index", 0.0)
+        has_github_handle = bool(candidate["personal"].get("github_handle"))
+
+        composite = compute_composite(
+            semantic_score, career_score, velocity_score, github_velocity_score, weights, has_github_handle
+        )
+
+        retention = compute_retention_risk(candidate)
+        radar = build_radar_data(candidate, jd_skills_extracted)
+        
+        scores_dict = {
+            "semantic": semantic_score, "career": career_score, "velocity": velocity_score, 
+            "github_velocity": github_velocity_score, "composite": composite
+        }
+
+        result = {
+            "candidate_id": cid,
+            "display_name": candidate["personal"]["full_name"],
+            "display_title": candidate["personal"]["current_title"],
+            "display_institution": (candidate["education"][0]["institution"] if candidate.get("education") else "N/A"),
+            "composite_score": composite,
+            "score_breakdown": {
+                "semantic_score": semantic_score, "career_score": career_score, 
+                "velocity_score": velocity_score, "github_velocity_score": github_velocity_score,
+            },
+            "justification": "", 
+            "retention_risk": retention,
+            "radar_data": radar,
+            "blind_mode_applied": blind_mode,
+            "_raw_candidate": candidate, 
+            "_scores_dict": scores_dict  
+        }
+        results_pre_justification.append(result)
+
+    results_pre_justification.sort(key=lambda r: r["composite_score"], reverse=True)
+    results_pre_justification = results_pre_justification[:top_n]  # ensure top_n after filtering
+    
+    for idx, r in enumerate(results_pre_justification):
+        r["rank"] = idx + 1
+
+    for r in results_pre_justification:
+        task = generate_justification(
+            candidate=r["_raw_candidate"],
+            jd_summary=f"Clone of candidate {target_candidate_id}",
+            scores=r["_scores_dict"],
+            rank=r["rank"],
+            blind_mode=blind_mode
+        )
+        justification_tasks.append(task)
+        
+    justifications = await asyncio.gather(*justification_tasks)
+    
+    for idx, r in enumerate(results_pre_justification):
+        r["justification"] = justifications[idx]
+        del r["_raw_candidate"]
+        del r["_scores_dict"]
+
+    from app.services.radar_service import evaluate_pool_density
+    pool_density_percentage = evaluate_pool_density(results_pre_justification)
+
+    return {
+        "search_id": search_id,
+        "jd_skills_extracted": jd_skills_extracted,
+        "total_candidates_scanned": collection.count(),
+        "pool_density_percentage": pool_density_percentage,
+        "results": results_pre_justification,
+        "latency_ms": int((time.time() - start_time) * 1000),
+    }

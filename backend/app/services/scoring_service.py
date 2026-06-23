@@ -45,12 +45,30 @@ def compute_composite(
     semantic: float,
     career: float,
     velocity: float,
+    github_velocity: float,
     weights: dict,
+    has_github_handle: bool,
 ) -> float:
-    """Compute weighted composite score from three signals."""
+    """Compute weighted composite score from four signals.
+    If the candidate lacks a GitHub handle, redistribute w4 proportionally.
+    """
+    w1 = weights.get("semantic", 0.0)
+    w2 = weights.get("career", 0.0)
+    w3 = weights.get("velocity", 0.0)
+    w4 = weights.get("github_velocity", 0.0)
+
+    if not has_github_handle and w4 > 0:
+        total_active_weight = w1 + w2 + w3
+        if total_active_weight > 0:
+            w1 += w4 * (w1 / total_active_weight)
+            w2 += w4 * (w2 / total_active_weight)
+            w3 += w4 * (w3 / total_active_weight)
+        w4 = 0.0
+
     composite = (
-        weights["semantic"] * semantic
-        + weights["career"] * career
-        + weights["velocity"] * velocity
+        w1 * semantic
+        + w2 * career
+        + w3 * velocity
+        + w4 * github_velocity
     )
     return round(composite, 1)

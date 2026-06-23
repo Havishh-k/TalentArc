@@ -39,3 +39,13 @@ def build_radar_data(candidate: dict, jd_skills: list[str]) -> list[dict]:
         })
 
     return radar
+
+
+def evaluate_pool_density(results: list[dict]) -> float:
+    """Calculate the percentage of candidates crossing a strict 75.0 composite score threshold."""
+    if not results:
+        return 0.0
+    
+    high_quality_count = sum(1 for r in results if r.get("composite_score", 0.0) >= 75.0)
+    density = (high_quality_count / len(results)) * 100.0
+    return round(density, 1)
