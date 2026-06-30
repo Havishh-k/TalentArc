@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "candidate_id": {
+      "type": "string",
+      "pattern": "^CAND_[0-9]{7}$"
+    },
+    "profile": {
+      "type": "object",
+      "properties": {
+        "years_of_experience": { "type": "number" },
+        "current_company_size": { "type": "string" },
+        "anonymized_name": { "type": "string" }
+      },
+      "required": ["years_of_experience", "current_company_size"]
+    },
+    "education": {
+      "type": "object",
+      "properties": {
+        "tier": { "type": "string" },
+        "institution": { "type": "string" }
+      },
+      "required": ["tier", "institution"]
+    },
+    "career_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role_title": { "type": "string" },
+          "company": { "type": "string" },
+          "start_date": { "type": "string", "format": "date" },
+          "end_date": { "type": ["string", "null"], "format": "date" },
+          "responsibilities": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "technologies": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["role_title", "company", "start_date"]
+      }
+    },
+    "redrob_signals": {
+      "type": "object",
+      "properties": {
+        "github_activity_score": { "type": "number" },
+        "github_last_active_date": { "type": ["string", "null"], "format": "date" },
+        "communication_score": { "type": "number" },
+        "leadership_score": { "type": "number" }
+      },
+      "required": [
+        "github_activity_score", 
+        "communication_score",
+        "leadership_score"
+      ]
+    }
+  },
+  "required": ["candidate_id", "profile", "education", "career_history", "redrob_signals"]
+}
