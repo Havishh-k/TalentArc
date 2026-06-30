@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-export function Header({ onUploadSuccess }) {
+import { FileUpload } from './FileUpload';
+import { ShieldCheck } from 'lucide-react';
+
+export function Header({ onUploadSuccess, onOpenCompliance }) {
   const [health, setHealth] = useState('offline');
 
   useEffect(() => {
@@ -25,6 +28,16 @@ export function Header({ onUploadSuccess }) {
       </div>
       
       <div className="flex items-center gap-4">
+        {onOpenCompliance && (
+          <button 
+            onClick={onOpenCompliance}
+            className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-panel border border-surface-border hover:bg-surface-border transition-colors text-sm font-medium text-text-secondary hover:text-brand-primary"
+          >
+            <ShieldCheck size={16} />
+            <span className="hidden sm:inline">Compliance Audit</span>
+          </button>
+        )}
+        <FileUpload onSuccess={onUploadSuccess} />
         
         <div className="flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-surface-panel border border-surface-border shadow-inner">
           <span className="relative flex h-2.5 w-2.5">
