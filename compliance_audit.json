@@ -1,0 +1,39 @@
+{
+  "methodology": "Tests for prestige/name leakage in masked scoring functions.",
+  "scope": "top_100",
+  "tolerance": 1e-09,
+  "summary": {
+    "candidates_tested": 2,
+    "pass": 2,
+    "fail": 0,
+    "max_observed_delta": 0.0
+  },
+  "results": [
+    {
+      "candidate_id": "CAND_0000001",
+      "rank": 1,
+      "fields_swapped": [
+        "profile.anonymized_name",
+        "education.tier",
+        "education.institution",
+        "company",
+        "profile.current_company_size"
+      ],
+      "max_delta": 0.0,
+      "pass": true
+    },
+    {
+      "candidate_id": "CAND_0000002",
+      "rank": 2,
+      "fields_swapped": [
+        "profile.anonymized_name",
+        "education.tier",
+        "education.institution",
+        "company",
+        "profile.current_company_size"
+      ],
+      "max_delta": 0.0,
+      "pass": true
+    }
+  ]
+}
