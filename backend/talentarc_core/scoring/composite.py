@@ -41,7 +41,11 @@ def calculate_composite_scores(
         # Average verb strength per candidate
         avg_verb_strength = llm_features_df.groupby('candidate_id', observed=True)['verb_strength_score'].mean()
         scores_df = pd.merge(scores_df, avg_verb_strength.rename('llm_multiplier'), on='candidate_id', how='left')
-        scores_df['llm_multiplier'] = scores_df['llm_multiplier'].fillna(0.5) # Neutral multiplier
+        
+        # Fallback to the population median instead of a flat 0.5 to avoid systematically 
+        # penalizing hidden-gem candidates who didn't pass through the LLM funnel phase.
+        fallback_val = float(avg_verb_strength.median()) if not avg_verb_strength.empty else 0.5
+        scores_df['llm_multiplier'] = scores_df['llm_multiplier'].fillna(fallback_val)
     else:
         scores_df['llm_multiplier'] = 0.5
         

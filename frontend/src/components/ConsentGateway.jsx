@@ -5,14 +5,14 @@ export function ConsentGateway({ onAccept }) {
 
   return (
     <div className="min-h-screen bg-surface-bg flex items-center justify-center p-6 font-sans">
-      <div className="max-w-2xl w-full bg-surface-surface p-10 rounded-2xl border border-surface-border shadow-2xl relative overflow-hidden">
+      <div className="max-w-2xl w-full bg-surface-panel p-10 rounded-2xl border border-surface-border shadow-2xl relative overflow-hidden">
         {/* Glow effect */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-32 bg-primary-500/20 blur-3xl rounded-full pointer-events-none opacity-50"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-32 bg-brand-primary/20 blur-3xl rounded-full pointer-events-none opacity-50"></div>
 
         <div className="relative z-10">
           <div className="flex items-center gap-4 mb-8">
-            <div className="w-12 h-12 rounded-xl bg-primary-500/20 flex items-center justify-center border border-primary-500/30 shadow-[0_0_15px_rgba(var(--color-primary-500),0.3)]">
-              <svg className="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="w-12 h-12 rounded-xl bg-brand-primary/20 flex items-center justify-center border border-brand-primary/30 shadow-glow-sm">
+              <svg className="w-6 h-6 text-brand-glow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
@@ -56,14 +56,14 @@ export function ConsentGateway({ onAccept }) {
                 checked={isChecked}
                 onChange={(e) => setIsChecked(e.target.checked)}
               />
-              <div className="w-5 h-5 rounded border-2 border-text-tertiary peer-checked:bg-primary-500 peer-checked:border-primary-500 flex items-center justify-center transition-all">
-                <svg className="w-3.5 h-3.5 text-white opacity-0 peer-checked:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className={`w-5 h-5 rounded border-2 flex items-center justify-center transition-all ${isChecked ? 'bg-brand-primary border-brand-primary' : 'border-text-tertiary'}`}>
+                <svg className={`w-3.5 h-3.5 text-white transition-opacity ${isChecked ? 'opacity-100' : 'opacity-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" />
                 </svg>
               </div>
             </div>
             <div>
-              <p className="text-sm font-medium text-text-primary group-hover:text-primary-400 transition-colors">
+              <p className="text-sm font-medium text-text-primary group-hover:text-brand-glow transition-colors">
                 I acknowledge these constraints
               </p>
               <p className="text-xs text-text-tertiary mt-1">
@@ -77,7 +77,7 @@ export function ConsentGateway({ onAccept }) {
             disabled={!isChecked}
             className={`w-full mt-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 shadow-lg ${
               isChecked 
-                ? 'bg-primary-500 text-white hover:bg-primary-400 hover:shadow-primary-500/25 active:scale-[0.98]' 
+                ? 'bg-brand-primary text-white hover:brightness-110 hover:shadow-brand-primary/25 active:scale-[0.98]' 
                 : 'bg-surface-elevated text-text-tertiary cursor-not-allowed opacity-70'
             }`}
           >

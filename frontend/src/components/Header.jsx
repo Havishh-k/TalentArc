@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-import { FileUpload } from './FileUpload';
 import { ShieldCheck } from 'lucide-react';
 
 export function Header({ onUploadSuccess, onOpenCompliance }) {
@@ -37,7 +36,6 @@ export function Header({ onUploadSuccess, onOpenCompliance }) {
             <span className="hidden sm:inline">Compliance Audit</span>
           </button>
         )}
-        <FileUpload onSuccess={onUploadSuccess} />
         
         <div className="flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-surface-panel border border-surface-border shadow-inner">
           <span className="relative flex h-2.5 w-2.5">
